@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Lyrics Viewer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <a href="index.html" class="back">← Back to list</a>
+    <div id="lyrics-content">Loading...</div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    const songFile = params.get('song');
+
+    if (songFile) {
+      fetch('lyrics/' + songFile)
+        .then(response => response.text())
+        .then(md => {
+          document.getElementById('lyrics-content').innerHTML = marked.parse(md);
+        })
+        .catch(() => {
+          document.getElementById('lyrics-content').textContent = 'Error loading lyrics.';
+        });
+    } else {
+      document.getElementById('lyrics-content').textContent = 'No song selected.';
+    }
+  </script>
+</body>
+</html>

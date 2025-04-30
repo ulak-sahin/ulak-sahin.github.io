@@ -1,1 +1,48 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lyrics Library</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🎵 Lyrics Library 🎵</h1>
+    <ul id="lyrics-list"></ul>
+  </div>
+
+  <script>
+    const repoOwner = 'ulak-sahin';  // 🔁 change to your GitHub username
+    const repoName = 'ulak-sahin.github.io';  // 🔁 change to your repo name
+    const folderPath = 'lyrics';
+  
+    async function loadLyricsList() {
+      const apiUrl = `https://api.github.com/repos/${repoOwner}/${repoName}/contents/${folderPath}`;
+      const res = await fetch(apiUrl);
+      const files = await res.json();
+  
+      const mdFiles = files
+        .filter(file => file.name.endsWith('.md'))
+        .map(file => file.name)
+        .sort((a, b) => b.localeCompare(a)); // Descending
+  
+      const listContainer = document.getElementById('lyrics-list');
+      listContainer.innerHTML = '';
+  
+      mdFiles.forEach(file => {
+        const songName = file.replace('.md', '');
+        const li = document.createElement('li');
+        const a = document.createElement('a');
+        a.href = `viewer.html?song=${encodeURIComponent(file)}`;
+        a.textContent = songName;
+        li.appendChild(a);
+        listContainer.appendChild(li);
+      });
+    }
+  
+    loadLyricsList();
+  </script>
+  
+</body>
+</html>

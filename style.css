@@ -1,0 +1,65 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    background: linear-gradient(to bottom right, #ffecd2, #fcb69f);
+    color: #333;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 700px;
+    margin: auto;
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #ff5722;
+  }
+  
+  ul#lyrics-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  ul#lyrics-list li {
+    background: #ffe0b2;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 8px;
+    transition: 0.3s;
+  }
+  
+  ul#lyrics-list li:hover {
+    background: #ffcc80;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #e65100;
+    font-weight: bold;
+  }
+  
+  a.back {
+    display: block;
+    margin-bottom: 15px;
+    color: #0288d1;
+  }
+  
+  @media (max-width: 600px) {
+    body {
+      padding: 10px;
+    }
+  
+    .container {
+      padding: 15px;
+    }
+  
+    h1 {
+      font-size: 1.6em;
+    }
+  }
+  
