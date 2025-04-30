@@ -1,65 +1,93 @@
+/* Reset & base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    background: linear-gradient(to bottom right, #ffecd2, #fcb69f);
-    color: #333;
-    padding: 20px;
-  }
-  
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to bottom right, #f5f7fa, #c3cfe2);
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  color: #222;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+/* Container */
+.container {
+  width: 100%;
+  max-width: 700px;
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 25px 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading */
+h1 {
+  font-size: 1.8rem;
+  margin-bottom: 25px;
+  color: #2c3e50;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 10px;
+}
+
+/* Lyrics list */
+ul#lyrics-list {
+  list-style: none;
+  padding: 0;
+}
+
+ul#lyrics-list li {
+  margin: 12px 0;
+  padding: 10px 15px;
+  border-radius: 8px;
+  background: #f0f4f8;
+  transition: background 0.2s;
+}
+
+ul#lyrics-list li:hover {
+  background: #d6e4f0;
+}
+
+a {
+  text-decoration: none;
+  color: #0077cc;
+  font-weight: 500;
+}
+
+/* Back link in viewer */
+a.back {
+  display: inline-block;
+  margin-bottom: 20px;
+  color: #666;
+  font-size: 0.95rem;
+  text-decoration: none;
+}
+
+/* Markdown spacing */
+#lyrics-content p {
+  margin-bottom: 1em;
+  line-height: 1.6;
+}
+
+#lyrics-content h1, #lyrics-content h2, #lyrics-content h3 {
+  margin-top: 1.2em;
+  margin-bottom: 0.5em;
+  color: #2c3e50;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
   .container {
-    max-width: 700px;
-    margin: auto;
-    background: white;
-    border-radius: 12px;
-    padding: 20px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    padding: 20px 15px;
   }
-  
+
   h1 {
-    text-align: center;
-    color: #ff5722;
+    font-size: 1.5rem;
   }
-  
-  ul#lyrics-list {
-    list-style: none;
-    padding: 0;
-  }
-  
-  ul#lyrics-list li {
-    background: #ffe0b2;
-    margin: 10px 0;
-    padding: 10px;
-    border-radius: 8px;
-    transition: 0.3s;
-  }
-  
-  ul#lyrics-list li:hover {
-    background: #ffcc80;
-  }
-  
-  a {
-    text-decoration: none;
-    color: #e65100;
-    font-weight: bold;
-  }
-  
-  a.back {
-    display: block;
-    margin-bottom: 15px;
-    color: #0288d1;
-  }
-  
-  @media (max-width: 600px) {
-    body {
-      padding: 10px;
-    }
-  
-    .container {
-      padding: 15px;
-    }
-  
-    h1 {
-      font-size: 1.6em;
-    }
-  }
-  
+}
