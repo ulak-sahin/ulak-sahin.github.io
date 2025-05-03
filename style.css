@@ -81,6 +81,36 @@ a.back {
   color: #2c3e50;
 }
 
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 20px;
+}
+
+.top-bar .back {
+  font-size: 0.95rem;
+  text-decoration: none;
+  color: #666;
+}
+
+#copy-btn {
+  background: #009dff6a;
+  color: black;
+  border: none;
+  padding: 10px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.95rem;
+  font-weight: 500;
+  transition: background 0.3s;
+}
+
+#copy-btn:hover {
+  color: white;
+  background: #0056b3;
+}
+
 /* Responsive */
 @media (max-width: 600px) {
   .container {

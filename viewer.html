@@ -8,7 +8,11 @@
 </head>
 <body>
   <div class="container">
-    <a href="index.html" class="back">← Listeye Geri Dön</a>
+    <div class="top-bar">
+      <a class="back" href="index.html">← Listeye Dön</a>
+      <button id="copy-btn">📋 Sözleri Kopyala</button>
+    </div>
+    
     <div id="lyrics-content">Loading...</div>
   </div>
 
@@ -29,6 +33,16 @@
     } else {
       document.getElementById('lyrics-content').textContent = 'No song selected.';
     }
+
+    document.getElementById('copy-btn').addEventListener('click', () => {
+      const temp = document.createElement('textarea');
+      temp.value = document.getElementById('lyrics-content').innerText;
+      document.body.appendChild(temp);
+      temp.select();
+      document.execCommand('copy');
+      document.body.removeChild(temp);
+      alert('Lyrics copied to clipboard!');
+    });
   </script>
 </body>
 </html>
