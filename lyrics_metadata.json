@@ -36,6 +36,12 @@
         "singer": "Rıdvan Böke"
     },
     {
+        "filename": "Geliyor Sultanım.md",
+        "language": "Türkçe",
+        "timestamp": "Evvelî",
+        "singer": "Grup Hacegan"
+    },
+    {
         "filename": "Gül Menzil.md",
         "language": "Türkçe",
         "timestamp": "Evvelî",
@@ -46,6 +52,12 @@
         "language": "Türkçe",
         "timestamp": "Yeni",
         "singer": "Özkan Kayan"
+    },
+    {
+        "filename": "İki Gözümün Çiçeği.md",
+        "language": "Türkçe",
+        "timestamp": "Yeni",
+        "singer": "Fadıl Aydın"
     },
     {
         "filename": "Kaside-i Ebubekir.md",
@@ -100,6 +112,12 @@
         "language": "Türkçe",
         "timestamp": "Evvelî",
         "singer": "Diğer"
+    },
+    {
+        "filename": "Sultan Saki.md",
+        "language": "Türkçe",
+        "timestamp": "Yeni",
+        "singer": "Bayram Büyükoruç"
     },
     {
         "filename": "Yanarım.md",
