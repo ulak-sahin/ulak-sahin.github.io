@@ -3,12 +3,25 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Lyrics Library</title>
+  <title>İlahi Kütüphanesi</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <div class="container">
     <h1>🎵 İlahi Sözleri</h1>
+
+    <div id="filter-chips" class="filter-row">
+      <div class="chip-row" id="chip-language"></div>
+      <div class="chip-row" id="chip-timestamp"></div>
+      <div class="chip-row">
+        <select id="singer-select" class="chip-like-select">
+          <option value="">Tüm Sanatçılar</option>
+        </select>
+      </div>
+    </div>
+    
+    <ul id="lyrics-list"></ul>
+    
     <ul id="lyrics-list"></ul>
   </div>
 
@@ -16,33 +29,92 @@
     const repoOwner = 'ulak-sahin';  // 🔁 change to your GitHub username
     const repoName = 'ulak-sahin.github.io';  // 🔁 change to your repo name
     const folderPath = 'lyrics';
-  
+
     async function loadLyricsList() {
-      const apiUrl = `https://api.github.com/repos/${repoOwner}/${repoName}/contents/${folderPath}`;
-      const res = await fetch(apiUrl);
-      const files = await res.json();
-  
-      const mdFiles = files
-        .filter(file => file.name.endsWith('.md'))
-        .map(file => file.name)
-        .sort((a, b) => a.localeCompare(b)); // Descending
-  
-      const listContainer = document.getElementById('lyrics-list');
-      listContainer.innerHTML = '';
-  
-      mdFiles.forEach(file => {
-        const songName = file.replace('.md', '');
-        const li = document.createElement('li');
-        const a = document.createElement('a');
-        a.href = `viewer.html?song=${encodeURIComponent(file)}`;
-        a.textContent = songName;
-        li.appendChild(a);
-        listContainer.appendChild(li);
+      const res = await fetch('lyrics_metadata.json');
+      const metadata = await res.json();
+
+      const filters = { language: null, timestamp: null, singer: "" };
+
+      const categories = {
+        language: [...new Set(metadata.map(x => x.language))],
+        timestamp: [...new Set(metadata.map(x => x.timestamp))],
+        singer: [...new Set(metadata.map(x => x.singer))]
+      };
+
+      function createChips(category) {
+        const container = document.getElementById(`chip-${category}`);
+        categories[category].forEach(value => {
+          const chip = document.createElement('div');
+          chip.className = 'chip';
+          chip.textContent = value;
+          chip.dataset.category = category;
+          chip.dataset.value = value;
+          chip.addEventListener('click', () => {
+            filters[category] = filters[category] === value ? null : value;
+
+            // Update chip visuals
+            document.querySelectorAll(`.chip[data-category="${category}"]`)
+              .forEach(c => c.classList.remove('active'));
+            if (filters[category]) chip.classList.add('active');
+
+            renderList();
+          });
+          container.appendChild(chip);
+        });
+      }
+
+      // Add language and timestamp chips
+      createChips('language');
+      createChips('timestamp');
+
+      // Populate singer dropdown
+      const singerSelect = document.getElementById('singer-select');
+      categories.singer.sort((a, b) => a.localeCompare(b));
+
+      categories.singer.forEach(singer => {
+        const opt = document.createElement('option');
+        opt.value = singer;
+        opt.textContent = singer;
+        singerSelect.appendChild(opt);
       });
+
+      singerSelect.addEventListener('change', () => {
+        filters.singer = singerSelect.value;
+
+        if (filters.singer) {
+          singerSelect.classList.add('active');
+        } else {
+          singerSelect.classList.remove('active');
+        }
+
+        renderList();
+      });
+
+      function renderList() {
+        const list = document.getElementById('lyrics-list');
+        list.innerHTML = '';
+
+        const filtered = metadata.filter(song =>
+          (!filters.language || song.language === filters.language) &&
+          (!filters.timestamp || song.timestamp === filters.timestamp) &&
+          (!filters.singer || song.singer === filters.singer)
+        ).sort((a, b) => a.filename.localeCompare(b.filename));
+
+        filtered.forEach(song => {
+          const li = document.createElement('li');
+          const a = document.createElement('a');
+          a.href = `viewer.html?song=${encodeURIComponent(song.filename)}`;
+          a.textContent = song.filename.replace('.md', '');
+          li.appendChild(a);
+          list.appendChild(li);
+        });
+      }
+
+      renderList();
     }
-  
     loadLyricsList();
-  </script>
+    </script>
   
 </body>
 </html>

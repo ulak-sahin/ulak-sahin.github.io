@@ -36,6 +36,72 @@ h1 {
   padding-bottom: 10px;
 }
 
+.filter-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.chip-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.chip {
+  padding: 6px 12px;
+  background: #e0e0e0;
+  border-radius: 16px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  user-select: none;
+  transition: background 0.2s;
+}
+
+.chip:hover {
+  background: #cfd8dc;
+}
+
+.chip.active {
+  background: #007bff;
+  color: white;
+}
+
+.chip-like-select {
+  padding: 6px 12px;
+  font-size: 0.85rem;
+  border-radius: 16px;
+  background: #e0e0e0;
+  color: #333;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url('data:image/svg+xml;utf8,<svg fill="gray" height="20" viewBox="0 0 24 24" width="20" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/></svg>');
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 16px;
+  padding-right: 30px;
+  transition: background 0.2s, color 0.2s;
+}
+
+/* When active (filtered) */
+.chip-like-select.active {
+  background: #007bff;
+  color: white;
+}
+
+/* Style options inside dropdown */
+.chip-like-select option {
+  color: #000;
+  background: #fff;
+  border-radius: 8px;
+}
+
 /* Lyrics list */
 ul#lyrics-list {
   list-style: none;
@@ -103,7 +169,7 @@ a.back {
   cursor: pointer;
   font-size: 0.95rem;
   font-weight: 500;
-  transition: background 0.3s;
+  transition: background 0.3s, color 0.3s;
 }
 
 #copy-btn:hover {
