@@ -6,6 +6,12 @@
       "singer": "Rıdvan Böke"
     },
     {
+        "filename": "Benim Efendim.md",
+        "language": "Türkçe",
+        "timestamp": "Evvelî",
+        "singer": "Hasan Sağındık"
+    },
+    {
       "filename": "Bir Güzelin Meftunuyam.md",
       "language": "Türkçe",
       "timestamp": "Evvelî",
@@ -16,6 +22,18 @@
         "language": "Türkçe",
         "timestamp": "Evvelî",
         "singer": "Grup Hanedan"
+    },
+    {
+        "filename": "Can Ellerinden Gelmişem.md",
+        "language": "Türkçe",
+        "timestamp": "Evvelî",
+        "singer": "Diğer"
+    },
+    {
+        "filename": "Ey Aşıkı Dildade.md",
+        "language": "Türkçe",
+        "singer": "Diğer",
+        "timestamp": "Evvelî"
     },
     {
         "filename": "Ey Bülbül-ü Şeyda.md",
@@ -76,6 +94,12 @@
         "language": "Türkçe",
         "timestamp": "Evvelî",
         "singer": "Grup Hanedan"
+    },
+    {
+        "filename": "Leblerinle Amadeyim.md",
+        "language": "Türkçe",
+        "timestamp": "Evvelî",
+        "singer": "Mehmet Emin Ay"
     },
     {
         "filename": "Meded Seydam.md",
