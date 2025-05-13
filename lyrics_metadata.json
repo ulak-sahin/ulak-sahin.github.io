@@ -18,6 +18,12 @@
       "singer": "Sedat Toktaş"
     },
     {
+        "filename": "Bu Gönül Ona Aşık.md",
+        "language": "Türkçe",
+        "timestamp": "Evvelî",
+        "singer": "Grup Hanedan"
+    },
+    {
         "filename": "Can Efendim.md",
         "language": "Türkçe",
         "timestamp": "Evvelî",
@@ -28,6 +34,12 @@
         "language": "Türkçe",
         "timestamp": "Evvelî",
         "singer": "Diğer"
+    },
+    {
+        "filename": "Daha Neler Var.md",
+        "language": "Türkçe",
+        "timestamp": "Evvelî",
+        "singer": "Grup Hanedan"
     },
     {
         "filename": "Ey Aşıkı Dildade.md",
@@ -114,6 +126,12 @@
         "singer": "Muhammed Ali"
     },
     {
+        "filename": "Muhtaç Alem.md",
+        "language": "Türkçe",
+        "timestamp": "Evvelî",
+        "singer": "Grup Hanedan"
+    },
+    {
         "filename": "Ne Feryad Edersin Divane Bülbül.md",
         "language": "Türkçe",
         "timestamp": "Evvelî",
@@ -138,6 +156,12 @@
         "singer": "Diğer"
     },
     {
+        "filename": "Rıza Kapısı.md",
+        "language": "Türkçe",
+        "timestamp": "Evvelî",
+        "singer": "Grup Hanedan"
+    },
+    {
         "filename": "Severim Ben Seni.md",
         "language": "Türkçe",
         "timestamp": "Evvelî",
@@ -150,9 +174,27 @@
         "singer": "Bayram Büyükoruç"
     },
     {
+        "filename": "Şefaat Ya Kerim.md",
+        "language": "Türkçe",
+        "timestamp": "Evvelî",
+        "singer": "Grup Hanedan"
+    },
+    {
+        "filename": "Varis-i Nebi.md",
+        "language": "Türkçe",
+        "timestamp": "Evvelî",
+        "singer": "Grup Hanedan"
+    },
+    {
         "filename": "Yanarım.md",
         "language": "Türkçe",
         "timestamp": "Evvelî",
         "singer": "Bayram Büyükoruç"
+    },
+    {
+        "filename": "Yar İle Şimdi.md",
+        "language": "Türkçe",
+        "timestamp": "Evvelî",
+        "singer": "Grup Hanedan"
     }
 ]  
