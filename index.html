@@ -10,6 +10,7 @@
   <div class="container">
     <h1>🎵 İlahi Sözleri</h1>
 
+    <input id="search-input" type="text" placeholder="İlahi Ara..." />
     <div id="filter-chips" class="filter-row">
       <div class="chip-row" id="chip-language"></div>
       <div class="chip-row" id="chip-timestamp"></div>
@@ -95,11 +96,14 @@
         const list = document.getElementById('lyrics-list');
         list.innerHTML = '';
 
+        const query = normalize(searchInput.value);
+
         const filtered = metadata.filter(song =>
           (!filters.language || song.language === filters.language) &&
           (!filters.timestamp || song.timestamp === filters.timestamp) &&
-          (!filters.singer || song.singer === filters.singer)
-        ).sort((a, b) => a.filename.localeCompare(b.filename));
+          (!filters.singer || song.singer === filters.singer) &&
+          normalize(song.filename).includes(query)
+        );
 
         filtered.forEach(song => {
           const li = document.createElement('li');
@@ -111,9 +115,21 @@
         });
       }
 
+      const searchInput = document.getElementById('search-input');
+      searchInput.addEventListener('input', () => renderList());
+
       renderList();
     }
     loadLyricsList();
+
+    function normalize(str) {
+      return str
+        .toLowerCase()
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, '') // Remove accents
+        .replace(/[^a-z0-9]/g, ''); // Remove non-alphanumerics
+    }
+
     </script>
   
 </body>
