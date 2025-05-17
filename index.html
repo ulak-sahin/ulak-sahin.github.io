@@ -13,7 +13,7 @@
     <input id="search-input" type="text" placeholder="İlahi Ara..." />
     <div id="filter-chips" class="filter-row">
       <div class="chip-row" id="chip-language"></div>
-      <div class="chip-row" id="chip-timestamp"></div>
+      <div class="chip-row" id="chip-timeline"></div>
       <div class="chip-row">
         <select id="singer-select" class="chip-like-select">
           <option value="">Tüm Sanatçılar</option>
@@ -35,11 +35,11 @@
       const res = await fetch('lyrics_metadata.json');
       const metadata = await res.json();
 
-      const filters = { language: null, timestamp: null, singer: "" };
+      const filters = { language: null, timeline: null, singer: "" };
 
       const categories = {
         language: [...new Set(metadata.map(x => x.language))],
-        timestamp: [...new Set(metadata.map(x => x.timestamp))],
+        timeline: [...new Set(metadata.map(x => x.timeline))],
         singer: [...new Set(metadata.map(x => x.singer))]
       };
 
@@ -65,9 +65,9 @@
         });
       }
 
-      // Add language and timestamp chips
+      // Add language and timeline chips
       createChips('language');
-      createChips('timestamp');
+      createChips('timeline');
 
       // Populate singer dropdown
       const singerSelect = document.getElementById('singer-select');
@@ -98,20 +98,31 @@
 
         const query = normalize(searchInput.value);
 
+        const oneWeekAgo = new Date();
+        oneWeekAgo.setDate(oneWeekAgo.getDate() - 7);
+
         const filtered = metadata.filter(song =>
           (!filters.language || song.language === filters.language) &&
-          (!filters.timestamp || song.timestamp === filters.timestamp) &&
+          (!filters.timeline || song.timeline === filters.timeline) &&
           (!filters.singer || song.singer === filters.singer) &&
           normalize(song.filename).includes(query)
         );
 
         filtered.forEach(song => {
+          const songDate = new Date(song.timestamp);
+          const isNew = songDate > oneWeekAgo;
+
+          const newBadge = isNew ? '<span class="new-badge">YENİ</span>' : '';
+
           const li = document.createElement('li');
           const a = document.createElement('a');
           a.href = `viewer.html?song=${encodeURIComponent(song.filename)}`;
           a.textContent = song.filename.replace('.md', '');
+          a.innerHTML = `${song.filename.replace('.md', '')} ${newBadge}`;
+          a.className = 'song-item';
           li.appendChild(a);
           list.appendChild(li);
+          
         });
       }
 

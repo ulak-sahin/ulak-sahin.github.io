@@ -148,6 +148,24 @@ a.back {
   text-decoration: none;
 }
 
+.new-badge {
+  background: #ff4081;
+  color: white;
+  font-size: 0.7rem;
+  font-weight: bold;
+  padding: 3px 8px;
+  border-radius: 12px;
+  margin-left: 20px;
+  animation: flash-pop 0.8s infinite ease-in-out;
+  box-shadow: 0 0 8px rgba(255, 64, 129, 0.6);
+}
+
+@keyframes flash-pop {
+  0%   { opacity: 1; transform: scale(1); }
+  50%  { opacity: 0.5; transform: scale(1.3); }
+  100% { opacity: 1; transform: scale(1); }
+}
+
 /* Markdown spacing */
 #lyrics-content p {
   margin-bottom: 1em;

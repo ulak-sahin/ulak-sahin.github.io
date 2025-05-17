@@ -1,200 +1,233 @@
 [
     {
-      "filename": "Aşk Bahçesinde Gülsün Sen.md",
-      "language": "Türkçe",
-      "timestamp": "Yeni",
-      "singer": "Rıdvan Böke"
+        "filename": "Aşk Bahçesinde Gülsün Sen.md",
+        "language": "Türkçe",
+        "timeline": "Yeni",
+        "singer": "Rıdvan Böke",
+        "timestamp": "2025-05-05T00:00:00Z"
     },
     {
         "filename": "Benim Efendim.md",
         "language": "Türkçe",
-        "timestamp": "Evvelî",
-        "singer": "Hasan Sağındık"
+        "timeline": "Evvelî",
+        "singer": "Hasan Sağındık",
+        "timestamp": "2025-05-11T00:00:00Z"
     },
     {
-      "filename": "Bir Güzelin Meftunuyam.md",
-      "language": "Türkçe",
-      "timestamp": "Evvelî",
-      "singer": "Sedat Toktaş"
+        "filename": "Bir Güzelin Meftunuyam.md",
+        "language": "Türkçe",
+        "timeline": "Evvelî",
+        "singer": "Sedat Toktaş",
+        "timestamp": "2025-05-05T00:00:00Z"
     },
     {
         "filename": "Bu Gönül Ona Aşık.md",
         "language": "Türkçe",
-        "timestamp": "Evvelî",
-        "singer": "Grup Hanedan"
+        "timeline": "Evvelî",
+        "singer": "Grup Hanedan",
+        "timestamp": "2025-05-14T00:00:00Z"
     },
     {
         "filename": "Can Efendim.md",
         "language": "Türkçe",
-        "timestamp": "Evvelî",
-        "singer": "Grup Hanedan"
+        "timeline": "Evvelî",
+        "singer": "Grup Hanedan",
+        "timestamp": "2025-05-05T00:00:00Z"
     },
     {
         "filename": "Can Ellerinden Gelmişem.md",
         "language": "Türkçe",
-        "timestamp": "Evvelî",
-        "singer": "Diğer"
+        "timeline": "Evvelî",
+        "singer": "Diğer",
+        "timestamp": "2025-05-11T00:00:00Z"
     },
     {
         "filename": "Daha Neler Var.md",
         "language": "Türkçe",
-        "timestamp": "Evvelî",
-        "singer": "Grup Hanedan"
+        "timeline": "Evvelî",
+        "singer": "Grup Hanedan",
+        "timestamp": "2025-05-14T00:00:00Z"
     },
     {
         "filename": "Ey Aşıkı Dildade.md",
         "language": "Türkçe",
         "singer": "Diğer",
-        "timestamp": "Evvelî"
+        "timeline": "Evvelî",
+        "timestamp": "2025-05-11T00:00:00Z"
     },
     {
         "filename": "Ey Bülbül-ü Şeyda.md",
         "language": "Türkçe",
-        "timestamp": "Evvelî",
-        "singer": "Diğer"
+        "timeline": "Evvelî",
+        "singer": "Diğer",
+        "timestamp": "2025-05-05T00:00:00Z"
     },
     {
         "filename": "Ez Aşıqım Dilberek.md",
         "language": "Kürtçe",
-        "timestamp": "Yeni",
-        "singer": "Rıdvan Böke"
+        "timeline": "Yeni",
+        "singer": "Rıdvan Böke",
+        "timestamp": "2025-05-05T00:00:00Z"
     },
     {
         "filename": "Ez Ketıme Sevdaye Te.md",
         "language": "Kürtçe",
-        "timestamp": "Yeni",
-        "singer": "Rıdvan Böke"
+        "timeline": "Yeni",
+        "singer": "Rıdvan Böke",
+        "timestamp": "2025-05-05T00:00:00Z"
     },
     {
         "filename": "Fırat Kenarında Menzil.md",
         "language": "Türkçe",
-        "timestamp": "Evvelî",
-        "singer": "Grup Hanedan"
+        "timeline": "Evvelî",
+        "singer": "Grup Hanedan",
+        "timestamp": "2025-05-14T00:00:00Z"
     },
     {
         "filename": "Geliyor Sultanım.md",
         "language": "Türkçe",
-        "timestamp": "Evvelî",
-        "singer": "Grup Hacegan"
+        "timeline": "Evvelî",
+        "singer": "Grup Hacegan",
+        "timestamp": "2025-05-05T00:00:00Z"
     },
     {
         "filename": "Gül Menzil.md",
         "language": "Türkçe",
-        "timestamp": "Evvelî",
-        "singer": "Murat Belet"
+        "timeline": "Evvelî",
+        "singer": "Murat Belet",
+        "timestamp": "2025-05-05T00:00:00Z"
     },
     {
         "filename": "Gül Yüzlü Şahım.md",
         "language": "Türkçe",
-        "timestamp": "Yeni",
-        "singer": "Özkan Kayan"
+        "timeline": "Yeni",
+        "singer": "Özkan Kayan",
+        "timestamp": "2025-05-05T00:00:00Z"
     },
     {
         "filename": "İki Gözümün Çiçeği.md",
         "language": "Türkçe",
-        "timestamp": "Yeni",
-        "singer": "Fadıl Aydın"
+        "timeline": "Yeni",
+        "singer": "Fadıl Aydın",
+        "timestamp": "2025-05-05T00:00:00Z"
     },
     {
         "filename": "Kaside-i Ebubekir.md",
         "language": "Arapça",
-        "timestamp": "Evvelî",
-        "singer": "Diğer"
+        "timeline": "Evvelî",
+        "singer": "Diğer",
+        "timestamp": "2025-05-05T00:00:00Z"
     },
     {
         "filename": "Kevser Irmağı.md",
         "language": "Türkçe",
-        "timestamp": "Evvelî",
-        "singer": "Rıdvan Böke"
+        "timeline": "Evvelî",
+        "singer": "Rıdvan Böke",
+        "timestamp": "2025-05-05T00:00:00Z"
     },
     {
         "filename": "Kurban Olam Gavsıma.md",
         "language": "Türkçe",
-        "timestamp": "Evvelî",
-        "singer": "Grup Hanedan"
+        "timeline": "Evvelî",
+        "singer": "Grup Hanedan",
+        "timestamp": "2025-05-05T00:00:00Z"
     },
     {
         "filename": "Leblerinle Amadeyim.md",
         "language": "Türkçe",
-        "timestamp": "Evvelî",
-        "singer": "Mehmet Emin Ay"
+        "timeline": "Evvelî",
+        "singer": "Mehmet Emin Ay",
+        "timestamp": "2025-05-11T00:00:00Z"
     },
     {
         "filename": "Meded Seydam.md",
         "language": "Kürtçe",
-        "timestamp": "Evvelî",
-        "singer": "Muhammed Ali"
+        "timeline": "Evvelî",
+        "singer": "Muhammed Ali",
+        "timestamp": "2025-05-05T00:00:00Z"
     },
     {
         "filename": "Muhtaç Alem.md",
         "language": "Türkçe",
-        "timestamp": "Evvelî",
-        "singer": "Grup Hanedan"
+        "timeline": "Evvelî",
+        "singer": "Grup Hanedan",
+        "timestamp": "2025-05-14T00:00:00Z"
     },
     {
         "filename": "Ne Feryad Edersin Divane Bülbül.md",
         "language": "Türkçe",
-        "timestamp": "Evvelî",
-        "singer": "Sedat Toktaş"
+        "timeline": "Evvelî",
+        "singer": "Sedat Toktaş",
+        "timestamp": "2025-05-05T00:00:00Z"
     },
     {
         "filename": "Ne Güzelsin Gavsi Sani.md",
         "language": "Türkçe",
-        "timestamp": "Evvelî",
-        "singer": "Mustafa Sevim"
+        "timeline": "Evvelî",
+        "singer": "Mustafa Sevim",
+        "timestamp": "2025-05-05T00:00:00Z"
     },
     {
         "filename": "Nevbahar.md",
         "language": "Türkçe",
-        "timestamp": "Evvelî",
-        "singer": "Bayram Büyükoruç"
+        "timeline": "Evvelî",
+        "singer": "Bayram Büyükoruç",
+        "timestamp": "2025-05-05T00:00:00Z"
     },
     {
         "filename": "Pervaneler Şem'a Yanar.md",
         "language": "Türkçe",
-        "timestamp": "Evvelî",
-        "singer": "Diğer"
+        "timeline": "Evvelî",
+        "singer": "Diğer",
+        "timestamp": "2025-05-05T00:00:00Z"
     },
     {
         "filename": "Rıza Kapısı.md",
         "language": "Türkçe",
-        "timestamp": "Evvelî",
-        "singer": "Grup Hanedan"
+        "timeline": "Evvelî",
+        "singer": "Grup Hanedan",
+        "timestamp": "2025-05-14T00:00:00Z"
     },
     {
         "filename": "Severim Ben Seni.md",
         "language": "Türkçe",
-        "timestamp": "Evvelî",
-        "singer": "Diğer"
+        "timeline": "Evvelî",
+        "singer": "Diğer",
+        "timestamp": "2025-05-05T00:00:00Z"
     },
     {
         "filename": "Sultan Saki.md",
         "language": "Türkçe",
-        "timestamp": "Yeni",
-        "singer": "Bayram Büyükoruç"
+        "timeline": "Yeni",
+        "singer": "Bayram Büyükoruç",
+        "timestamp": "2025-05-05T00:00:00Z"
     },
     {
         "filename": "Şefaat Ya Kerim.md",
         "language": "Türkçe",
-        "timestamp": "Evvelî",
-        "singer": "Grup Hanedan"
+        "timeline": "Evvelî",
+        "singer": "Grup Hanedan",
+        "timestamp": "2025-05-14T00:00:00Z"
     },
     {
         "filename": "Varis-i Nebi.md",
         "language": "Türkçe",
-        "timestamp": "Evvelî",
-        "singer": "Grup Hanedan"
+        "timeline": "Evvelî",
+        "singer": "Grup Hanedan",
+        "timestamp": "2025-05-14T00:00:00Z"
     },
     {
         "filename": "Yanarım.md",
         "language": "Türkçe",
-        "timestamp": "Evvelî",
-        "singer": "Bayram Büyükoruç"
+        "timeline": "Evvelî",
+        "singer": "Bayram Büyükoruç",
+        "timestamp": "2025-05-05T00:00:00Z"
     },
     {
         "filename": "Yar İle Şimdi.md",
         "language": "Türkçe",
-        "timestamp": "Evvelî",
-        "singer": "Grup Hanedan"
+        "timeline": "Evvelî",
+        "singer": "Grup Hanedan",
+        "timestamp": "2025-05-14T00:00:00Z"
     }
 ]  
