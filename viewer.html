@@ -14,10 +14,42 @@
     </div>
     
     <div id="lyrics-content">Loading...</div>
+
+      <div id="recommendation-section">
+        <h3>🎧 Benzer İlahiler</h3>
+        <ul id="recommendation-list"></ul>
+      </div>
   </div>
 
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
   <script>
+    function showRecommendations(current, others) {
+      const list = document.getElementById('recommendation-list');
+      if (!list) return;
+
+      const scored = others.map(song => {
+        let score = 0;
+        if (song.language === current.language) score+=2;
+        if (song.timeline === current.timestamp) score++;
+        if (song.singer === current.singer) score+=4;
+        return { ...song, score };
+      });
+
+      const top = scored
+        .sort((a, b) => b.score - a.score)
+        .slice(0, 5);
+
+      for (const song of top) {
+        const li = document.createElement('li');
+        const a = document.createElement('a');
+        a.href = `viewer.html?song=${encodeURIComponent(song.filename)}`;
+        a.textContent = song.filename.replace('.md', '');
+        a.className = 'song-item';
+        li.appendChild(a);
+        list.appendChild(li);
+      }
+    }
+
     const params = new URLSearchParams(window.location.search);
     const songFile = params.get('song');
 
@@ -34,6 +66,13 @@
       document.getElementById('lyrics-content').textContent = 'No song selected.';
     }
 
+    fetch('lyrics_metadata.json')
+    .then(res => res.json())
+    .then(allSongs => {
+      const current = allSongs.find(s => s.filename === songFile);
+      showRecommendations(current, allSongs.filter(s => s.filename !== songFile));
+    });
+
     document.getElementById('copy-btn').addEventListener('click', () => {
       const temp = document.createElement('textarea');
       temp.value = document.getElementById('lyrics-content').innerText;
@@ -43,5 +82,7 @@
       document.body.removeChild(temp);
     });
   </script>
+  
+  </div>
 </body>
 </html>

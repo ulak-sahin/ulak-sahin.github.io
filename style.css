@@ -27,6 +27,21 @@ body {
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
 }
 
+#recommendation-section {
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid #ccc;
+}
+
+#recommendation-section h3 {
+  font-size: 1.2rem;
+  margin-bottom: 12px;
+}
+
+#recommendation-list {
+  list-style: none;
+}
+
 /* Heading */
 h1 {
   font-size: 1.8rem;
@@ -121,15 +136,20 @@ ul#lyrics-list {
   padding: 0;
 }
 
-ul#lyrics-list li {
-  margin: 12px 0;
+ul#lyrics-list li{
+  margin: 7px 0;
+}
+
+.song-item {
+  display: block;
+  margin: 5px 0;
   padding: 10px 15px;
   border-radius: 8px;
   background: #f0f4f8;
   transition: background 0.2s;
 }
 
-ul#lyrics-list li:hover {
+.song-item:hover {
   background: #d6e4f0;
 }
 
