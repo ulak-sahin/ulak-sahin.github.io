@@ -5,8 +5,8 @@ Bi̇r Güzeli̇n Meftûnuyam, Eman, Eman (x2)
 Âlem Onun Di̇vânesi̇, Hây, Hây, Hây  
 
 Bi̇r Yusuf'un Mecnûnuyam, Eman, Eman (x2)  
-Her Hüsnün Olmuş, Yâr, Yâr, Yâr  
-Her Hüsnün Olmuş, Hây, Hây, Hây  
+Her Hüsnün Olmuş Aynesi, Yâr, Yâr, Yâr  
+Her Hüsnün Olmuş Aynesi, Hây, Hây, Hây  
 
 Bu Yüzden Cehr Eyler Felek, Eman, Eman (x2)  
 Ol Göze Aşıktır Melek, Yâr, Yâr, Yâr  

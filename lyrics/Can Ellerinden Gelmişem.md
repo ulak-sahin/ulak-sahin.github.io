@@ -45,17 +45,17 @@ Varken ne söyler bu lisan.
 Dilden dile bin tercüman,  
 Varken ne söyler bu lisan.  
 
-Çü can-u dildir hem-zebân,  
+Çün can-u dildir hem-zebân,  
 Nutk-u beyânı neylerem.  
-Çü can-u dildir hem-zebân,  
+Çün can-u dildir hem-zebân,  
 Nutk-u beyânı neylerem.  
 
-Hakkı, cemîi halktan,  
+Hakkı, cemii halktan,  
 Müstağniyem billâhi ben.  
-Hakkı, cemîi halktan,  
+Hakkı, cemii halktan,  
 Müstağniyem billâhi ben.  
 
-Hallâk-ı âlem var iken,  
+Hallâk-ı Âlem var iken,  
 Halk-i zamanı neylerem.  
-Hallâk-ı âlem var iken,  
+Hallâk-ı Âlem var iken,  
 Halk-i zamanı neylerem.

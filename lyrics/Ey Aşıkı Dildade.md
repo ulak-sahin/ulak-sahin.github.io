@@ -9,7 +9,7 @@ Can Allah Canan Allah
 Canlar sana kurban Allah  
 Hay kalbim zikrullah  
 La ilâhe illallah  
-Muhammed-ur-Resulullah  
+Muhammed-ur-Resulullah (ﷺ)
 
 Sakisi ola Mevla  
 Ak dahi anın esma  
@@ -20,7 +20,7 @@ Can Allah Canan Allah
 Canlar sana kurban Allah  
 Hay kalbim zikrullah  
 La ilâhe illallah  
-Muhammed-ur-Resulullah  
+Muhammed-ur-Resulullah (ﷺ)
 
 İşit bu Sezai’den  
 Ne gördü fenâiden  
@@ -31,4 +31,4 @@ Can Allah Canan Allah
 Canlar sana kurban Allah  
 Hay kalbim zikrullah  
 La ilâhe illallah  
-Muhammed-ur-Resulullah
+Muhammed-ur-Resulullah (ﷺ)

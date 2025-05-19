@@ -1,23 +1,35 @@
 # Kaside-i Ebubekir
 
-Cud bi lutfik yâ ilâhî men lehû zâdun kalîl  
-Müflisün bi’s sıdki ye’tî inde bâbike yâ Celîl (x2)
+Cud bi lutfik yâ ilâhî  
+Men lehû zâdun kalîl  
+Müflisün bi’s sıdki ye’tî  
+İnde bâbik yâ Celîl
 
-Zenbühü zenbün azîmun fağfiri’z zenbe’l azîm  
-İnnehû şahsun garîbun müznibün abdün zelîl (x2)
+Zenbühü zenbün azîmun  
+Fağfiri’z zenbe’l azîm  
+İnnehû şahsun garîbun  
+Müznibün abdün zelîl
 
-Minhu ısyânun ve nisyânun ve sehvün ba’de sehv  
-Minke ihsânün ve fadlün ba’de i’tâi’l-cezîl (x2)
-
-...
-
-Kul linârübrüdî yâ Rabbi fî hakki kemâ  
-Kulte “kulnâ yâ nâru kûnî” ente fî hakki’l-Halîl (x2)
-
-Ente Şâfî ente Kâfî fî mühimmâti’l-umûr  
-Ente Hasbî ente Rabbî ente lî ni’me’l-vekîl (x2)
+Minhu ısyânun ve nisyânun  
+Ve sehvün ba’de sehv  
+Minke ihsânün ve fadlün  
+Ba’de i’tâi’l-cezîl
 
 ...
 
-Eyne Mûsâ eyne Îsâ eyne Yahyâ eyne Nûh  
-Ente yâ Sıddîk âsî tüb ile’l-Mevle’l-Celîl (x2)
+Kul linârübrüdî yâ  
+Rabbi fî hakki kemâ  
+Kulte “kulnâ yâ nâru kûnî”  
+Ente fî hakki’l-Halîl
+
+Ente Şâfî ente Kâfî  
+Fî mühimmâti’l-umûr  
+Ente Hasbî ente Rabbî  
+Ente lî ni’me’l-vekîl
+
+...
+
+Eyne Mûsâ eyne Îsâ  
+Eyne Yahyâ eyne Nûh  
+Ente yâ Sıddîk'u-Âsî  
+Tûb ile’l-Mevle’l-Celîl
