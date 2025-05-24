@@ -29,15 +29,27 @@
 
       const scored = others.map(song => {
         let score = 0;
-        if (song.language === current.language) score+=2;
-        if (song.timeline === current.timestamp) score++;
+        if (song.language === current.language) score++;
+        if (song.timeline === current.timeline) score+=2;
         if (song.singer === current.singer) score+=4;
         return { ...song, score };
       });
 
-      const top = scored
-        .sort((a, b) => b.score - a.score)
-        .slice(0, 5);
+      // Group by score and shuffle within each group
+      const grouped = scored.reduce((acc, song) => {
+        acc[song.score] = acc[song.score] || [];
+        acc[song.score].push(song);
+        return acc;
+      }, {});
+
+      // Shuffle function
+      const shuffle = arr => arr.sort(() => Math.random() - 0.5);
+
+      const sorted = Object.keys(grouped)
+        .sort((a, b) => b - a) // Highest score first
+        .flatMap(score => shuffle(grouped[score]));
+
+      const top = sorted.slice(0, 5);
 
       for (const song of top) {
         const li = document.createElement('li');
