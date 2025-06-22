@@ -101,24 +101,36 @@
         const oneWeekAgo = new Date();
         oneWeekAgo.setDate(oneWeekAgo.getDate() - 7);
 
-        const filtered = metadata.filter(song =>
-          (!filters.language || song.language === filters.language) &&
-          (!filters.timeline || song.timeline === filters.timeline) &&
-          (!filters.singer || song.singer === filters.singer) &&
-          normalize(song.filename).includes(query)
-        );
+        const filtered = metadata.filter(song => {
+          const isUnchecked = song.timestamp === null;
+          const isSearching = query.length > 0;
+
+          // Exclude songs with null timestamp unless the user is actively searching
+          if (isUnchecked && !isSearching) return false;
+
+          return (!filters.language || song.language === filters.language) &&
+                (!filters.timestamp || song.timestamp === filters.timestamp) &&
+                (!filters.timeline || song.timeline === filters.timeline) &&
+                (!filters.singer || song.singer === filters.singer) &&
+                normalize(song.filename).includes(query);
+        });
 
         filtered.forEach(song => {
-          const songDate = new Date(song.timestamp);
+          const songTS = song.timestamp
+          const songDate = new Date(songTS);
           const isNew = songDate > oneWeekAgo;
-
-          const newBadge = isNew ? '<span class="new-badge">YENİ</span>' : '';
+          const isUnchecked = songTS === null
+          const tag = isUnchecked
+            ? '<span class="unchecked-badge">DOĞRULANMAMIŞ</span>'
+            : isNew
+              ? '<span class="new-badge">YENİ</span>'
+              : '';
 
           const li = document.createElement('li');
           const a = document.createElement('a');
           a.href = `viewer.html?song=${encodeURIComponent(song.filename)}`;
           a.textContent = song.filename.replace('.md', '');
-          a.innerHTML = `${song.filename.replace('.md', '')} ${newBadge}`;
+          a.innerHTML = `${song.filename.replace('.md', '')} ${tag}`;
           a.className = 'song-item';
           li.appendChild(a);
           list.appendChild(li);
