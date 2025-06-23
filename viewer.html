@@ -52,10 +52,23 @@
       const top = sorted.slice(0, 5);
 
       for (const song of top) {
+        const songTS = song.timestamp
+        const songDate = new Date(songTS);
+        const oneWeekAgo = new Date();
+        oneWeekAgo.setDate(oneWeekAgo.getDate() - 7);
+        const isNew = songDate > oneWeekAgo;
+        const isUnchecked = songTS === null
+        const tag = isUnchecked
+          ? '<span class="unchecked-badge">DOĞRULANMAMIŞ</span>'
+          : isNew
+            ? '<span class="new-badge">YENİ</span>'
+            : '';
+
         const li = document.createElement('li');
         const a = document.createElement('a');
         a.href = `viewer.html?song=${encodeURIComponent(song.filename)}`;
         a.textContent = song.filename.replace('.md', '');
+        a.innerHTML = `${song.filename.replace('.md', '')} ${tag}`;
         a.className = 'song-item';
         li.appendChild(a);
         list.appendChild(li);
