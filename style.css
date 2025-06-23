@@ -340,12 +340,11 @@ a:hover {
 .unchecked-badge {
   background: #ff9800;
   color: white;
-  font-size: 0.7rem;
+  font-size: 0.5rem;
   font-weight: bold;
   padding: 3px 8px;
   border-radius: 12px;
   margin-left: 8px;
-  animation: pulse-warn 1s infinite ease-in-out;
 }
 
 /* Lyrics Content */
