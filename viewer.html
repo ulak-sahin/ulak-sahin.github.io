@@ -16,13 +16,49 @@
     <div id="lyrics-content">Loading...</div>
 
       <div id="recommendation-section">
-        <h3>🎧 Benzer İlahiler</h3>
+        <h3>
+          🎧 Benzer İlahiler
+          <button class='rec-btn' id="prev-rec-btn"><</button>
+          <button class='rec-btn' id="next-rec-btn">></button>
+        </h3>
         <ul id="recommendation-list"></ul>
       </div>
   </div>
 
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
   <script>
+    let rec_lists = [];
+    let rec_list_index = 0;
+
+    function displayRecList() {
+      const top = rec_lists[rec_list_index];
+      const list = document.getElementById('recommendation-list');
+      list.innerHTML = ''; // Clear existing list
+
+      for (const song of top) {
+        const songTS = song.timestamp;
+        const songDate = new Date(songTS);
+        const oneWeekAgo = new Date();
+        oneWeekAgo.setDate(oneWeekAgo.getDate() - 7);
+
+        const isNew = songDate > oneWeekAgo;
+        const isUnchecked = songTS === null;
+        const tag = isUnchecked
+          ? '<span class="unchecked-badge">DOĞRULANMAMIŞ</span>'
+          : isNew
+            ? '<span class="new-badge">YENİ</span>'
+            : '';
+
+        const li = document.createElement('li');
+        const a = document.createElement('a');
+        a.href = `viewer.html?song=${encodeURIComponent(song.filename)}`;
+        a.className = 'song-item';
+        a.innerHTML = `${song.filename.replace('.md', '')} ${tag}`;
+        li.appendChild(a);
+        list.appendChild(li);
+      }
+    }
+
     function showRecommendations(current, others) {
       const list = document.getElementById('recommendation-list');
       if (!list) return;
@@ -49,31 +85,33 @@
         .sort((a, b) => b - a) // Highest score first
         .flatMap(score => shuffle(grouped[score]));
 
-      const top = sorted.slice(0, 5);
-
-      for (const song of top) {
-        const songTS = song.timestamp
-        const songDate = new Date(songTS);
-        const oneWeekAgo = new Date();
-        oneWeekAgo.setDate(oneWeekAgo.getDate() - 7);
-        const isNew = songDate > oneWeekAgo;
-        const isUnchecked = songTS === null
-        const tag = isUnchecked
-          ? '<span class="unchecked-badge">DOĞRULANMAMIŞ</span>'
-          : isNew
-            ? '<span class="new-badge">YENİ</span>'
-            : '';
-
-        const li = document.createElement('li');
-        const a = document.createElement('a');
-        a.href = `viewer.html?song=${encodeURIComponent(song.filename)}`;
-        a.textContent = song.filename.replace('.md', '');
-        a.innerHTML = `${song.filename.replace('.md', '')} ${tag}`;
-        a.className = 'song-item';
-        li.appendChild(a);
-        list.appendChild(li);
+      // Split sorted into chunks of 5
+      rec_lists = [];
+      for (let i = 0; i < sorted.length; i += 5) {
+        rec_lists.push(sorted.slice(i, i + 5));
       }
+
+      // Track which list is currently shown
+      rec_list_index = 0;
+
+      // Initial display
+      displayRecList();
+
     }
+
+    // Navigation buttons
+    document.getElementById("next-rec-btn").addEventListener("click", () => {
+      if (rec_list_index < rec_lists.length - 1) {
+        rec_list_index++;
+        displayRecList();
+      }
+    });
+    document.getElementById("prev-rec-btn").addEventListener("click", () => {
+      if (rec_list_index > 0) {
+        rec_list_index--;
+        displayRecList();
+      }
+    });
 
     const params = new URLSearchParams(window.location.search);
     const songFile = params.get('song');
