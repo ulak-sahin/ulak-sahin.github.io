@@ -1,9 +1,51 @@
 [
     {
+        "filename": "Ah Sultanım Can Sultanım.md",
+        "language": "Türkçe",
+        "timeline": "Evvelî",
+        "singer": "Grup Hacegan",
+        "timestamp": null
+    },
+    {
+        "filename": "Allah De Kalbim Allah De.md",
+        "language": "Türkçe",
+        "timeline": "Evvelî",
+        "singer": "Grup Hacegan",
+        "timestamp": null
+    },
+    {
+        "filename": "Allahu Allah.md",
+        "language": "Türkçe",
+        "timeline": "Evvelî",
+        "singer": "Grup Hacegan",
+        "timestamp": null
+    },
+    {
+        "filename": "Aman Seydam.md",
+        "language": "Türkçe",
+        "timeline": "Evvelî",
+        "singer": "Grup Hacegan",
+        "timestamp": null
+    },
+    {
         "filename": "Asrı Sani.md",
         "language": "Türkçe",
         "timeline": "Evvelî",
         "singer": "Grup Hanedan",
+        "timestamp": null
+    },
+    {
+        "filename": "Avareyim Pervaneyim.md",
+        "language": "Türkçe",
+        "timeline": "Evvelî",
+        "singer": "Grup Hacegan",
+        "timestamp": null
+    },
+    {
+        "filename": "Açılsın Resule Yollar.md",
+        "language": "Türkçe",
+        "timeline": "Evvelî",
+        "singer": "Grup Hacegan",
         "timestamp": null
     },
     {
@@ -14,11 +56,39 @@
         "timestamp": "2025-05-05"
     },
     {
+        "filename": "Aşık Oldum.md",
+        "language": "Türkçe",
+        "timeline": "Evvelî",
+        "singer": "Grup Hacegan",
+        "timestamp": null
+    },
+    {
+        "filename": "Aşıkların Eğlencesi.md",
+        "language": "Türkçe",
+        "timeline": "Evvelî",
+        "singer": "Grup Hacegan",
+        "timestamp": null
+    },
+    {
+        "filename": "Beni Mekke'ye Götürün.md",
+        "language": "Türkçe",
+        "timeline": "Evvelî",
+        "singer": "Grup Hacegan",
+        "timestamp": null
+    },
+    {
         "filename": "Benim Efendim.md",
         "language": "Türkçe",
         "timeline": "Evvelî",
         "singer": "Hasan Sağındık",
         "timestamp": "2025-05-11"
+    },
+    {
+        "filename": "Bir Ay Doğdu Menzil’de.md",
+        "language": "Türkçe",
+        "timeline": "Evvelî",
+        "singer": "Grup Hacegan",
+        "timestamp": null
     },
     {
         "filename": "Bir Güzelin Meftunuyam.md",
@@ -28,11 +98,53 @@
         "timestamp": "2025-05-05"
     },
     {
+        "filename": "Bir Nebi Sevdim.md",
+        "language": "Türkçe",
+        "timeline": "Evvelî",
+        "singer": "Grup Hacegan",
+        "timestamp": null
+    },
+    {
+        "filename": "Bir Sultan Var Gönlümde.md",
+        "language": "Türkçe",
+        "timeline": "Evvelî",
+        "singer": "Grup Hacegan",
+        "timestamp": null
+    },
+    {
+        "filename": "Bizden Selam.md",
+        "language": "Türkçe",
+        "timeline": "Evvelî",
+        "singer": "Grup Hacegan",
+        "timestamp": null
+    },
+    {
         "filename": "Bu Gönül Ona Aşık.md",
         "language": "Türkçe",
         "timeline": "Evvelî",
         "singer": "Grup Hanedan",
         "timestamp": "2025-05-14"
+    },
+    {
+        "filename": "Bölük Bölük.md",
+        "language": "Türkçe",
+        "timeline": "Evvelî",
+        "singer": "Grup Hacegan",
+        "timestamp": null
+    },
+    {
+        "filename": "Bülbül Derviş.md",
+        "language": "Türkçe",
+        "timeline": "Evvelî",
+        "singer": "Grup Hacegan",
+        "timestamp": null
+    },
+    {
+        "filename": "Can Ahmed’in Aşıkları.md",
+        "language": "Türkçe",
+        "timeline": "Evvelî",
+        "singer": "Grup Hacegan",
+        "timestamp": null
     },
     {
         "filename": "Can Efendim.md",
@@ -49,6 +161,55 @@
         "timestamp": "2025-05-11"
     },
     {
+        "filename": "Can Pazarı.md",
+        "language": "Türkçe",
+        "timeline": "Evvelî",
+        "singer": "Grup Hacegan",
+        "timestamp": null
+    },
+    {
+        "filename": "Can Sultanım.md",
+        "language": "Türkçe",
+        "timeline": "Evvelî",
+        "singer": "Grup Hacegan",
+        "timestamp": null
+    },
+    {
+        "filename": "Can Yine Bülbül Oldu.md",
+        "language": "Türkçe",
+        "timeline": "Evvelî",
+        "singer": "Grup Hacegan",
+        "timestamp": null
+    },
+    {
+        "filename": "Canlar Dayanmaz.md",
+        "language": "Türkçe",
+        "timeline": "Evvelî",
+        "singer": "Grup Hacegan",
+        "timestamp": null
+    },
+    {
+        "filename": "Canım Sultanım.md",
+        "language": "Türkçe",
+        "timeline": "Evvelî",
+        "singer": "Grup Hacegan",
+        "timestamp": null
+    },
+    {
+        "filename": "Cennet Gülü.md",
+        "language": "Türkçe",
+        "timeline": "Evvelî",
+        "singer": "Grup Hacegan",
+        "timestamp": null
+    },
+    {
+        "filename": "Cennet Kapısı Hizmet.md",
+        "language": "Türkçe",
+        "timeline": "Evvelî",
+        "singer": "Grup Hacegan",
+        "timestamp": null
+    },
+    {
         "filename": "Daha Neler Var.md",
         "language": "Türkçe",
         "timeline": "Evvelî",
@@ -56,10 +217,38 @@
         "timestamp": "2025-05-14"
     },
     {
+        "filename": "De Kalbim.md",
+        "language": "Türkçe",
+        "timeline": "Evvelî",
+        "singer": "Grup Hacegan",
+        "timestamp": null
+    },
+    {
+        "filename": "Derdime Dermanım.md",
+        "language": "Türkçe",
+        "timeline": "Evvelî",
+        "singer": "Grup Hacegan",
+        "timestamp": null
+    },
+    {
+        "filename": "Doyamadım.md",
+        "language": "Türkçe",
+        "timeline": "Evvelî",
+        "singer": "Grup Hacegan",
+        "timestamp": null
+    },
+    {
         "filename": "Efendim.md",
         "language": "Türkçe",
         "timeline": "Evvelî",
         "singer": "Grup Hanedan",
+        "timestamp": null
+    },
+    {
+        "filename": "Efendimin Gülü.md",
+        "language": "Türkçe",
+        "timeline": "Evvelî",
+        "singer": "Grup Hacegan",
         "timestamp": null
     },
     {
@@ -74,6 +263,13 @@
         "language": "Türkçe",
         "timeline": "Evvelî",
         "singer": "Grup Hanedan",
+        "timestamp": null
+    },
+    {
+        "filename": "Elhamdülillah (Grup Hacegan).md",
+        "language": "Türkçe",
+        "timeline": "Evvelî",
+        "singer": "Grup Hacegan",
         "timestamp": null
     },
     {
@@ -105,6 +301,20 @@
         "timestamp": "2025-05-05"
     },
     {
+        "filename": "Ey Gulamın.md",
+        "language": "Türkçe",
+        "timeline": "Evvelî",
+        "singer": "Grup Hacegan",
+        "timestamp": null
+    },
+    {
+        "filename": "Ey Nebi.md",
+        "language": "Türkçe",
+        "timeline": "Evvelî",
+        "singer": "Grup Hacegan",
+        "timestamp": null
+    },
+    {
         "filename": "Ez Aşıqım Dilberek.md",
         "language": "Kürtçe",
         "timeline": "Sâkice",
@@ -119,11 +329,32 @@
         "timestamp": "2025-05-05"
     },
     {
+        "filename": "Feda Ettim.md",
+        "language": "Türkçe",
+        "timeline": "Evvelî",
+        "singer": "Grup Hacegan",
+        "timestamp": null
+    },
+    {
+        "filename": "Ferman Sende.md",
+        "language": "Türkçe",
+        "timeline": "Evvelî",
+        "singer": "Grup Hacegan",
+        "timestamp": null
+    },
+    {
         "filename": "Fırat Kenarında Menzil.md",
         "language": "Türkçe",
         "timeline": "Evvelî",
         "singer": "Grup Hanedan",
         "timestamp": "2025-05-14"
+    },
+    {
+        "filename": "Garip Kul.md",
+        "language": "Türkçe",
+        "timeline": "Evvelî",
+        "singer": "Grup Hacegan",
+        "timestamp": null
     },
     {
         "filename": "Gavsı Kasrevi.md",
@@ -133,11 +364,74 @@
         "timestamp": null
     },
     {
+        "filename": "Gel Gel.md",
+        "language": "Türkçe",
+        "timeline": "Evvelî",
+        "singer": "Grup Hacegan",
+        "timestamp": null
+    },
+    {
+        "filename": "Gel Hele.md",
+        "language": "Türkçe",
+        "timeline": "Evvelî",
+        "singer": "Grup Hacegan",
+        "timestamp": null
+    },
+    {
+        "filename": "Gel Kardeşim.md",
+        "language": "Türkçe",
+        "timeline": "Evvelî",
+        "singer": "Grup Hacegan",
+        "timestamp": null
+    },
+    {
+        "filename": "Gel Onunla Aşalım.md",
+        "language": "Türkçe",
+        "timeline": "Evvelî",
+        "singer": "Grup Hacegan",
+        "timestamp": null
+    },
+    {
+        "filename": "Gelebilsem.md",
+        "language": "Türkçe",
+        "timeline": "Evvelî",
+        "singer": "Grup Hacegan",
+        "timestamp": null
+    },
+    {
         "filename": "Geliyor Sultanım.md",
         "language": "Türkçe",
         "timeline": "Evvelî",
         "singer": "Grup Hacegan",
         "timestamp": "2025-05-05"
+    },
+    {
+        "filename": "Gönlüm İster.md",
+        "language": "Türkçe",
+        "timeline": "Evvelî",
+        "singer": "Grup Hacegan",
+        "timestamp": null
+    },
+    {
+        "filename": "Gönül Pazarı.md",
+        "language": "Türkçe",
+        "timeline": "Evvelî",
+        "singer": "Grup Hacegan",
+        "timestamp": null
+    },
+    {
+        "filename": "Gönül.md",
+        "language": "Türkçe",
+        "timeline": "Evvelî",
+        "singer": "Grup Hacegan",
+        "timestamp": null
+    },
+    {
+        "filename": "Gül Kokulu Medine.md",
+        "language": "Türkçe",
+        "timeline": "Evvelî",
+        "singer": "Grup Hacegan",
+        "timestamp": null
     },
     {
         "filename": "Gül Menzil.md",
@@ -152,6 +446,41 @@
         "timeline": "Sâkice",
         "singer": "Özkan Kayan",
         "timestamp": "2025-05-05"
+    },
+    {
+        "filename": "Hasretim Var.md",
+        "language": "Türkçe",
+        "timeline": "Evvelî",
+        "singer": "Grup Hacegan",
+        "timestamp": null
+    },
+    {
+        "filename": "Hay Diye.md",
+        "language": "Türkçe",
+        "timeline": "Evvelî",
+        "singer": "Grup Hacegan",
+        "timestamp": null
+    },
+    {
+        "filename": "Hay Hay.md",
+        "language": "Türkçe",
+        "timeline": "Evvelî",
+        "singer": "Grup Hacegan",
+        "timestamp": null
+    },
+    {
+        "filename": "Her Şey Yolunda.md",
+        "language": "Türkçe",
+        "timeline": "Evvelî",
+        "singer": "Grup Hacegan",
+        "timestamp": null
+    },
+    {
+        "filename": "Hu Demek İster.md",
+        "language": "Türkçe",
+        "timeline": "Evvelî",
+        "singer": "Grup Hacegan",
+        "timestamp": null
     },
     {
         "filename": "Kaside-i Ebubekir.md",
@@ -173,6 +502,13 @@
         "timeline": "Evvelî",
         "singer": "Grup Hanedan",
         "timestamp": "2025-05-05"
+    },
+    {
+        "filename": "Kurtar Beni.md",
+        "language": "Türkçe",
+        "timeline": "Evvelî",
+        "singer": "Grup Hacegan",
+        "timestamp": null
     },
     {
         "filename": "Leblerinle Amadeyim.md",
@@ -256,6 +592,13 @@
         "language": "Türkçe",
         "timeline": "Evvelî",
         "singer": "Grup Hanedan",
+        "timestamp": null
+    },
+    {
+        "filename": "Rasulün Aşkı.md",
+        "language": "Türkçe",
+        "timeline": "Evvelî",
+        "singer": "Grup Hacegan",
         "timestamp": null
     },
     {
