@@ -136,6 +136,11 @@
           list.appendChild(li);
           
         });
+
+        //Send searched string to form
+        if (filtered.length === 0 && query.length > 1) {
+          handleMissingSearch(query);
+        }
       }
 
       const searchInput = document.getElementById('search-input');
@@ -151,6 +156,30 @@
         .normalize("NFD")
         .replace(/[\u0300-\u036f]/g, '') // Remove accents
         .replace(/[^a-z0-9]/g, ''); // Remove non-alphanumerics
+    }
+
+    let missingSearchTimeout;
+    let lastSentQuery = '';
+
+    function handleMissingSearch(query) {
+      clearTimeout(missingSearchTimeout);
+
+      if (query.length < 3 || query === lastSentQuery) return;
+
+      missingSearchTimeout = setTimeout(() => {
+        if (query.length > lastSentQuery.length) {
+          sendMissingSearch(query);
+          lastSentQuery = query;
+        }
+      }, 600);
+    }
+
+    function sendMissingSearch(query) {
+      fetch("https://formspree.io/f/mjkrqedw", {
+        method: "POST",
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ search: query })
+      });
     }
 
     </script>
