@@ -120,9 +120,6 @@
           const isUnchecked = song.timestamp === null;
           const isSearching = query.length > 0;
 
-          // Exclude songs with null timestamp unless the user is actively searching
-          if (isUnchecked && !isSearching && !filters.singer) return false;
-
           return (!filters.language || song.language === filters.language) &&
                 (!filters.timestamp || song.timestamp === filters.timestamp) &&
                 (!filters.timeline || song.timeline === filters.timeline) &&
