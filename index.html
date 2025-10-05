@@ -210,17 +210,19 @@
         notify("Bunu zaten gönderdin, başka bir şey dene!", type='error',);
       }
       else {
-        sendMissingSearch(query);
+        sendMissingSearch(document.getElementById('search-input').value);
         lastSentQuery = query;
       }
     }
 
     function sendMissingSearch(query) {
-      // fetch("https://formspree.io/f/mjkrqedw", {
-      //   method: "POST",
-      //   headers: { 'Content-Type': 'application/json' },
-      //   body: JSON.stringify({ search: query })
-      // });
+      query = query + " şarkı sözleri"
+
+      fetch("https://formspree.io/f/mjkrqedw", {
+        method: "POST",
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ search: query })
+      });
 
       notify("Bildirdiğin için teşekkür ederiz. Bi ara ekleriz inşallah...");
     }
