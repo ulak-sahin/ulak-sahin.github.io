@@ -281,6 +281,12 @@ a:hover {
   transform: translateX(-5px);
 }
 
+.top-bar-buttons {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
 /* Copy Button */
 #copy-btn {
   background: linear-gradient(135deg, #667eea, #764ba2);
