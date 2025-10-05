@@ -170,7 +170,7 @@
           searchGoogleBtn.id = "searchGoogleBtn";
           searchGoogleBtn.className = "colorBtn button-animations";
           searchGoogleBtn.textContent = `Google'da ara`;
-          searchGoogleBtn.onclick = () => searchOnGoogle(query);
+          searchGoogleBtn.onclick = () => searchOnGoogle();
           wrapperDiv.appendChild(searchGoogleBtn);
 
           const sendSearchBtn = document.createElement('button');
@@ -216,8 +216,6 @@
     }
 
     function sendMissingSearch(query) {
-      query = query + " şarkı sözleri"
-
       fetch("https://formspree.io/f/mjkrqedw", {
         method: "POST",
         headers: { 'Content-Type': 'application/json' },
@@ -227,8 +225,8 @@
       notify("Bildirdiğin için teşekkür ederiz. Bi ara ekleriz inşallah...");
     }
 
-    function searchOnGoogle(query) {
-      const url = "https://www.google.com/search?q=" + encodeURIComponent(query);
+    function searchOnGoogle() {
+      const url = "https://www.google.com/search?q=" + encodeURIComponent(document.getElementById('search-input').value + " şarkı sözleri");
       window.open(url, "_blank");
     }
 
