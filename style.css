@@ -42,6 +42,14 @@ body {
   }
 }
 
+/* Header Row */
+.header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
 /* Headings */
 h1 {
   font-size: 1.8rem;
@@ -500,4 +508,113 @@ a:hover {
 @keyframes spin {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
+}
+
+/* Dark Mode */
+body.dark {
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+  color: #e0e0e0;
+}
+
+body.dark .container {
+  background: rgba(30, 30, 45, 0.95);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Headings */
+body.dark h1 {
+  background: linear-gradient(135deg, #667eea, #4fd1c5);
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+body.dark #recommendation-section h3 {
+  font-size: 1.4rem;
+  margin-bottom: 20px;
+  color: #a8c5e6;
+  font-weight: 700;
+}
+
+body.dark .song-item {
+  background: rgba(40, 50, 70, 0.95);
+  border: 1px solid rgba(102, 126, 234, 0.25);
+  color: #a8c5e6;
+}
+
+body.dark .song-item:hover {
+  background: rgba(102, 126, 234, 0.2);
+}
+
+body.dark #search-input {
+  background: #2a2a3e;
+  color: #e0e0e0;
+}
+
+body.dark .chip {
+  background: rgba(40, 50, 70, 0.9);
+  border-color: rgba(102, 126, 234, 0.4);
+  color: #e0e0e0;
+}
+
+body.dark .chip-like-select {
+  background: rgba(40, 50, 70, 0.9);
+  border-color: rgba(102, 126, 234, 0.4);
+  color: #e0e0e0;
+}
+
+body.dark .chip.active {
+  background: linear-gradient(135deg, #667eea, #4fd1c5);
+  color: white;
+  border-color: #667eea;
+  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+}
+
+body.dark .chip-like-select.active {
+  background: linear-gradient(135deg, #667eea, #4fd1c5);
+  color: white;
+  border-color: #667eea;
+}
+
+body.dark #lyrics-content {
+  color: #e0e0e0;
+}
+
+/* Theme Toggle Button */
+#themeBtn {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  border: none;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+}
+
+#themeBtn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
+}
+
+body.dark #themeBtn {
+  background: linear-gradient(135deg, #4a5568, #2d3748);
+}
+
+#sun-symbol {
+  display: block;
+}
+
+#moon-symbol {
+  display: none;
+}
+
+body.dark #sun-symbol {
+  display: none;
+}
+
+body.dark #moon-symbol {
+  display: block;
 }
