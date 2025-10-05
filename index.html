@@ -7,10 +7,11 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <div id="notifications"></div>
   <div class="container">
     <div class="header-row">
       <h1>🎵 İlahi Sözleri</h1>
-      <button id="themeBtn" onclick="toggleDarkMode()">
+      <button id="themeBtn" class="button-animations" onclick="toggleDarkMode()">
         <svg id="sun-symbol" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24">
           <circle cx="12" cy="12" r="4"/>
           <path d="M12 2v2m0 16v2M4.93 4.93l1.41 1.41m11.32 11.32 1.41 1.41M2 12h2m16 0h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/>
@@ -31,8 +32,6 @@
         </select>
       </div>
     </div>
-    
-    <ul id="lyrics-list"></ul>
     
     <ul id="lyrics-list"></ul>
   </div>
@@ -146,12 +145,43 @@
           a.className = 'song-item';
           li.appendChild(a);
           list.appendChild(li);
-          
         });
-
+        
         //Send searched string to form
         if (filtered.length === 0 && query.length > 1) {
-          handleMissingSearch(query);
+          const wrapper = document.createElement('div');
+          wrapper.style.marginTop = '15px';
+          wrapper.style.display = 'flex';
+          wrapper.style.flexDirection = 'column';
+          wrapper.style.alignItems = 'center';
+          wrapper.style.gap = '10px';
+          
+          const notFoundSpan = document.createElement('span');
+          notFoundSpan.textContent = "Aradığın ilahiyi bulamadık... ";
+          wrapper.appendChild(notFoundSpan);
+
+          const wrapperDiv = document.createElement('div');
+          wrapperDiv.style.display = 'flex';
+          wrapperDiv.style.flexDirection = 'row';
+          wrapperDiv.style.alignItems = 'center';
+          wrapperDiv.style.gap = '10px';
+
+          const searchGoogleBtn = document.createElement('button');
+          searchGoogleBtn.id = "searchGoogleBtn";
+          searchGoogleBtn.className = "colorBtn button-animations";
+          searchGoogleBtn.textContent = `Google'da ara`;
+          searchGoogleBtn.onclick = () => searchOnGoogle(query);
+          wrapperDiv.appendChild(searchGoogleBtn);
+
+          const sendSearchBtn = document.createElement('button');
+          sendSearchBtn.id = "sendSearchBtn";
+          sendSearchBtn.className = "colorBtn button-animations";
+          sendSearchBtn.textContent = `Yöneticiye söyle`;
+          sendSearchBtn.onclick = () => handleMissingSearch(query);
+          wrapperDiv.appendChild(sendSearchBtn);
+
+          wrapper.appendChild(wrapperDiv)
+          list.appendChild(wrapper);
         }
       }
 
@@ -170,28 +200,48 @@
         .replace(/[^a-z0-9]/g, ''); // Remove non-alphanumerics
     }
 
-    let missingSearchTimeout;
     let lastSentQuery = '';
 
     function handleMissingSearch(query) {
-      clearTimeout(missingSearchTimeout);
-
-      if (query.length < 3 || query === lastSentQuery) return;
-
-      missingSearchTimeout = setTimeout(() => {
-        if (query.length > lastSentQuery.length) {
-          sendMissingSearch(query);
-          lastSentQuery = query;
-        }
-      }, 600);
+      if (query.length < 5) {
+        notify("İlahinin tam ismini yazman gerek!", type='error',);
+      }
+      else if (query === lastSentQuery){
+        notify("Bunu zaten gönderdin, başka bir şey dene!", type='error',);
+      }
+      else {
+        sendMissingSearch(query);
+        lastSentQuery = query;
+      }
     }
 
     function sendMissingSearch(query) {
-      fetch("https://formspree.io/f/mjkrqedw", {
-        method: "POST",
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ search: query })
-      });
+      // fetch("https://formspree.io/f/mjkrqedw", {
+      //   method: "POST",
+      //   headers: { 'Content-Type': 'application/json' },
+      //   body: JSON.stringify({ search: query })
+      // });
+
+      notify("Bildirdiğin için teşekkür ederiz. Bi ara ekleriz inşallah...");
+    }
+
+    function searchOnGoogle(query) {
+      const url = "https://www.google.com/search?q=" + encodeURIComponent(query);
+      window.open(url, "_blank");
+    }
+
+    function notify(message, type = 'success', timeout = 3000) {
+      const container = document.getElementById('notifications');
+      const notification = document.createElement('div');
+      notification.className = `notification ${type}`;
+      notification.textContent = message;
+
+      container.appendChild(notification);
+
+      setTimeout(() => {
+        notification.classList.add('fade-out');
+        setTimeout(() => notification.remove(), 300);
+      }, timeout);
     }
 
     function toggleDarkMode() {
