@@ -170,23 +170,42 @@ h1 {
 }
 
 /* Search Input */
+.search-container {
+  position: relative;
+  margin-bottom: 16px;
+}
+
 #search-input {
   width: 100%;
-  padding: 10px 14px;
   font-size: 0.9rem;
   border: none;
   border-radius: 16px;
-  margin-bottom: 16px;
   background: #f0f0f0;
   outline: none;
   box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
 }
 
+#clear-search {
+  position: absolute;
+  right: 13px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  color: #888;
+  font-size: 1.8rem;
+  cursor: pointer;
+  display: none;
+}
+
+#clear-search:hover {
+  color: #555;
+}
+
 #search-input:focus {
   border-color: #667eea;
   box-shadow: 0 4px 20px rgba(102, 126, 234, 0.3);
-  transform: translateY(-2px);
 }
 
 #search-input::placeholder {
@@ -669,6 +688,10 @@ body.dark .song-item:hover {
 body.dark #search-input {
   background: #2a2a3e;
   color: #e0e0e0;
+}
+
+body.dark #clear-search:hover {
+  color: #ddd;
 }
 
 body.dark .chip {

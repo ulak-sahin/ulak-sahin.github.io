@@ -22,7 +22,11 @@
       </button>
     </div>
 
-    <input id="search-input" type="text" placeholder="İlahi Ara..." />
+    <div class="search-container">
+      <input id="search-input" type="text" placeholder="İlahi Ara..." />
+      <button id="clear-search">×</button>
+    </div>
+
     <div id="filter-chips" class="filter-row">
       <div class="chip-row" id="chip-language"></div>
       <div class="chip-row" id="chip-timeline"></div>
@@ -187,6 +191,19 @@
 
       const searchInput = document.getElementById('search-input');
       searchInput.addEventListener('input', () => renderList());
+      const clearBtn = document.getElementById('clear-search');
+
+      searchInput.addEventListener('input', () => {
+        clearBtn.style.display = searchInput.value ? 'block' : 'none';
+        renderList();
+      });
+
+      clearBtn.addEventListener('click', () => {
+        searchInput.value = '';
+        clearBtn.style.display = 'none';
+        renderList();
+        searchInput.focus();
+      });
 
       renderList();
     }
