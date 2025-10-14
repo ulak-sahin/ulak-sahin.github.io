@@ -84,6 +84,22 @@
         "timestamp": "2025-05-05"
     },
     {
+        "filename": "Aşkın ile Aşıklar.md",
+        "language": "Türkçe",
+        "timeline": "Evvelî",
+        "singer": "Diğer",
+        "makam": ["Uşşak", "Nihavend"],
+        "timestamp": "2025-10-14"
+    },
+    {
+        "filename": "Ateşi Aşkınla Yandır.md",
+        "language": "Türkçe",
+        "timeline": "Evvelî",
+        "singer": "Diğer",
+        "makam": "Neva",
+        "timestamp": "2025-10-14"
+    },
+    {
         "filename": "Avareyim Pervaneyim.md",
         "language": "Türkçe",
         "timeline": "Evvelî",
@@ -336,6 +352,14 @@
         "timestamp": null
     },
     {
+        "filename": "Derman Arardım Derdime.md",
+        "language": "Türkçe",
+        "timeline": "Evvelî",
+        "singer": "Diğer",
+        "makam": "Hüseyni",
+        "timestamp": "2025-10-14"
+    },
+    {
         "filename": "Deli mi Neydi.md",
         "language": "Türkçe",
         "timeline": "Evvelî",
@@ -354,7 +378,8 @@
         "language": "Türkçe",
         "timeline": "Evvelî",
         "singer": "Hafız Kemal",
-        "timestamp": "26-06-2025"
+        "makam": ["Uşşak", "Neva"],
+        "timestamp": "2025-06-26"
     },
     {
         "filename": "Doyamadım.md",
@@ -417,13 +442,15 @@
         "language": "Türkçe",
         "timeline": "Evvelî",
         "singer": "Diğer",
-        "timestamp": "27-06-2025"
+        "makam": "Rast",
+        "timestamp": "2025-06-27"
     },
     {
         "filename": "Ey Aşıkı Dildade.md",
         "language": "Türkçe",
         "singer": "Diğer",
         "timeline": "Evvelî",
+        "makam": "Rast",
         "timestamp": "2025-05-11"
     },
     {
@@ -963,6 +990,7 @@
         "language": "Türkçe",
         "timeline": "Evvelî",
         "singer": "Diğer",
+        "makam": "Hüseyni",
         "timestamp": "2025-05-05"
     },
     {
@@ -985,6 +1013,14 @@
         "timeline": "Evvelî",
         "singer": "Mustafa Büyükaslan",
         "timestamp": null
+    },
+    {
+        "filename": "Şeyhimin İlleri.md",
+        "language": "Türkçe",
+        "timeline": "Evvelî",
+        "singer": "Diğer",
+        "makam": ["Uşşak","Nihavend"],
+        "timestamp": "2025-10-14"
     },
     {
         "filename": "Şefaat Ya Kerim.md",
@@ -1027,6 +1063,13 @@
         "timeline": "Evvelî",
         "singer": "Grup Hanedan",
         "timestamp": "2025-05-14"
+    },
+    {
+        "filename": "Ya Rabb Haberin Nereden Alayım.md",
+        "language": "Türkçe",
+        "timeline": "Evvelî",
+        "singer": "H. Sami Samioğlu",
+        "timestamp": "2025-10-14"
     },
     {
         "filename": "Ya Rabbi Ben Pişmanım.md",
