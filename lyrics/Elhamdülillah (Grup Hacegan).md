@@ -1,4 +1,4 @@
-# Elhamdülillah (Grup Hacegan)
+# Elhamdülillah
 
 Bülbüller Nazda Güller Niyazda  
 Söyle Namazda Elhamdülillah  

@@ -1,4 +1,4 @@
-# Yalvar Güzel Allaha
+# Yalvar Güzel Allah'a
 
 Uyan gözün aç durma yalvar güzel Allah’a  
 Yolundan izin ayırma yalvar güzel Allah’a  

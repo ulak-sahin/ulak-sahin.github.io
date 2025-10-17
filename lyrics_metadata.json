@@ -399,7 +399,7 @@
         "hidden": true
     },
     {
-        "filename": "Elhamdülillah.md",
+        "filename": "Elhamdülillah (Grup Hanedan).md",
         "language": "Türkçe",
         "singer": "Grup Hanedan",
         "unchecked": true,
@@ -783,7 +783,7 @@
     },
     {
         "filename": "Merhaba.md",
-        "language": "Türkçe",
+        "language": "Kürtçe",
         "singer": "Grup Hanedan",
         "unchecked": true
     },
@@ -808,7 +808,8 @@
         "timestamp": "2025-05-14"
     },
     {
-        "filename": "Mürşid Elimi Tutunca.md",
+        "filename": "Mürşidin Elini Tutunca.md",
+        "altname": "Ya Rabbi Ben Pişmanım",
         "language": "Türkçe",
         "singer": "Mustafa Büyükaslan",
         "unchecked": true
@@ -867,6 +868,7 @@
     },
     {
         "filename": "Plevne Marşı.md",
+        "altname": "Osman Paşa Marşı",
         "language": "Türkçe",
         "singer": "Mehter",
         "timestamp": "2025-25-06"
@@ -926,6 +928,7 @@
     },
     {
         "filename": "Seydam.md",
+        "altname": "Başında Beyaz Tacı",
         "language": "Türkçe",
         "singer": "Mustafa Büyükaslan",
         "unchecked": true,
@@ -967,6 +970,7 @@
     },
     {
         "filename": "Taleal Bedru Aleyna.md",
+        "altname": "Tala'al Bedru Aleyna",
         "language": "Arapça",
         "singer": "Diğer",
         "unchecked": true
@@ -993,12 +997,13 @@
     },
     {
         "filename": "Ya Rabb Haberin Nereden Alayım.md",
+        "altname": "Ya Rab Haberin Nereden Alayım",
         "language": "Türkçe",
         "singer": "H. Sami Samioğlu",
         "timestamp": "2025-10-14"
     },
     {
-        "filename": "Yalvar Güzel Allaha.md",
+        "filename": "Yalvar Güzel Allah'a.md",
         "language": "Türkçe",
         "singer": "Grup Hanedan",
         "unchecked": true
@@ -1006,7 +1011,7 @@
     {
         "filename": "Yan Yüreğim Yan.md",
         "language": "Türkçe",
-        "singer": "Grup Hanedan",
+        "singer": "Diğer",
         "unchecked": true
     },
     {
@@ -1023,6 +1028,7 @@
     },
     {
         "filename": "Yaradanı Zikrederler.md",
+        "altname": "Amman Allah",
         "language": "Türkçe",
         "singer": "Grup Hanedan",
         "unchecked": true
