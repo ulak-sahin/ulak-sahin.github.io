@@ -2,79 +2,75 @@
     {
         "filename": "Açılsın Resule Yollar.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Grup Hacegan",
-        "timestamp": null
+        "unchecked": true,
+        "hidden": true
     },
     {
         "filename": "Ah Sultanım Can Sultanım.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Grup Hacegan",
-        "timestamp": null
+        "unchecked": true,
+        "hidden": true
     },
     {
         "filename": "Allah Allah.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Mustafa Büyükaslan",
-        "timestamp": null
+        "unchecked": true,
+        "hidden": true
     },
     {
         "filename": "Allah De Kalbim Allah De.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Grup Hacegan",
-        "timestamp": null
+        "unchecked": true
     },
     {
         "filename": "Allahu Allah.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Grup Hacegan",
-        "timestamp": null
+        "unchecked": true
     },
     {
         "filename": "Aman Seydam.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Grup Hacegan",
-        "timestamp": null
+        "unchecked": true,
+        "hidden": true
     },
     {
         "filename": "Arz Ettim Efendime.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Mustafa Büyükaslan",
-        "timestamp": null
+        "unchecked": true,
+        "hidden": true
     },
     {
         "filename": "Asrı Sani.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Grup Hanedan",
-        "timestamp": null
+        "unchecked": true
     },
     {
         "filename": "Aşık Derviş.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Mustafa Büyükaslan",
-        "timestamp": null
+        "unchecked": true,
+        "hidden": true
     },
     {
         "filename": "Aşık Oldum.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Grup Hacegan",
-        "timestamp": null
+        "unchecked": true
     },
     {
         "filename": "Aşıkların Eğlencesi.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Grup Hacegan",
-        "timestamp": null
+        "unchecked": true,
+        "hidden": true
     },
     {
         "filename": "Aşk Bahçesinde Gülsün Sen.md",
@@ -86,7 +82,6 @@
     {
         "filename": "Aşkın ile Aşıklar.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Diğer",
         "makam": ["Uşşak", "Nihavend"],
         "timestamp": "2025-10-14"
@@ -94,7 +89,6 @@
     {
         "filename": "Ateşi Aşkınla Yandır.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Diğer",
         "makam": "Neva",
         "timestamp": "2025-10-14"
@@ -102,259 +96,244 @@
     {
         "filename": "Avareyim Pervaneyim.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Grup Hacegan",
-        "timestamp": null
+        "unchecked": true
     },
     {
         "filename": "Ay Parçam.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Mustafa Büyükaslan",
-        "timestamp": null
+        "unchecked": true
     },
     {
         "filename": "Ayrılacağım.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Mustafa Büyükaslan",
-        "timestamp": null
+        "unchecked": true,
+        "hidden": true
     },
     {
         "filename": "Babam Babam Sultanım.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Garip Bekir",
-        "timestamp": null
+        "unchecked": true
     },
     {
         "filename": "Bacım.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Mustafa Büyükaslan",
-        "timestamp": null
+        "unchecked": true,
+        "hidden": true
     },
     {
         "filename": "Beni Mekke'ye Götürün.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Grup Hacegan",
-        "timestamp": null
+        "unchecked": true,
+        "hidden": true
     },
     {
         "filename": "Benim Efendim.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Hasan Sağındık",
         "timestamp": "2025-05-11"
     },
     {
         "filename": "Bir Ay Doğdu Menzil’de.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Grup Hacegan",
-        "timestamp": null
+        "unchecked": true,
+        "hidden": true
     },
     {
         "filename": "Bir Gül de Ben Olaydım.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Mustafa Büyükaslan",
-        "timestamp": null
+        "unchecked": true,
+        "hidden": true
     },
     {
         "filename": "Bir Güzelin Meftunuyam.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Sedat Toktaş",
         "timestamp": "2025-05-05"
     },
     {
         "filename": "Bir Nebi Sevdim.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Grup Hacegan",
-        "timestamp": null
+        "unchecked": true,
+        "hidden": true
     },
     {
         "filename": "Bir Sabah Gelecek Kardan Aydınlık.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Abdurrahim Karakoç",
-        "timestamp": null
+        "unchecked": true
     },
     {
         "filename": "Bir Sultan Var Gönlümde.md",
+        "altname": "Gavsi Sani Sultani",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Grup Hacegan",
-        "timestamp": null
+        "unchecked": true
     },
     {
         "filename": "Bizden Selam.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Grup Hacegan",
-        "timestamp": null
+        "unchecked": true,
+        "hidden": true
     },
     {
         "filename": "Bölük Bölük.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Grup Hacegan",
-        "timestamp": null
+        "unchecked": true,
+        "hidden": true
     },
     {
         "filename": "Bu Gönül Ona Aşık.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Grup Hanedan",
         "timestamp": "2025-05-14"
     },
     {
         "filename": "Bu Kapı Babı Selamdır.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Mustafa Büyükaslan",
-        "timestamp": null
+        "unchecked": true,
+        "hidden": true
     },
     {
         "filename": "Bülbül Derviş.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Grup Hacegan",
-        "timestamp": null
+        "unchecked": true,
+        "hidden": true
     },
     {
         "filename": "Can Ahmed’in Aşıkları.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Grup Hacegan",
-        "timestamp": null
+        "unchecked": true,
+        "hidden": true
     },
     {
         "filename": "Can Efendim.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Grup Hanedan",
         "timestamp": "2025-05-05"
     },
     {
         "filename": "Can Ellerinden Gelmişem.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Diğer",
         "timestamp": "2025-05-11"
     },
     {
         "filename": "Can Pazarı.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Grup Hacegan",
-        "timestamp": null
+        "unchecked": true,
+        "hidden": true
     },
     {
         "filename": "Can Sultanım.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Grup Hacegan",
-        "timestamp": null
+        "unchecked": true,
+        "hidden": true
     },
     {
         "filename": "Can Yine Bülbül Oldu.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Grup Hacegan",
-        "timestamp": null
+        "unchecked": true
     },
     {
         "filename": "Caney.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Mustafa Büyükaslan",
-        "timestamp": null
+        "unchecked": true,
+        "hidden": true
     },
     {
         "filename": "Canım Sultanım.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Grup Hacegan",
-        "timestamp": null
+        "unchecked": true
     },
     {
         "filename": "Canlar Dayanmaz.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Grup Hacegan",
-        "timestamp": null
+        "unchecked": true,
+        "hidden": true
     },
     {
         "filename": "Cennet Gülü.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Grup Hacegan",
-        "timestamp": null
+        "unchecked": true,
+        "hidden": true
     },
     {
         "filename": "Cennet Kapısı Hizmet.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Grup Hacegan",
-        "timestamp": null
+        "unchecked": true,
+        "hidden": true
     },
     {
         "filename": "Çağır Beni.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Mustafa Büyükaslan",
-        "timestamp": null
+        "unchecked": true,
+        "hidden": true
     },
     {
         "filename": "Çağırırım Ey Dost Seni.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Diğer",
-        "timestamp": null
+        "unchecked": true,
+        "hidden": true
     },
     {
         "filename": "Çok Özledim Sultanım.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Grup Hanedan",
-        "timestamp": null
+        "unchecked": true
     },
     {
         "filename": "Çorba.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Mustafa Büyükaslan",
-        "timestamp": null
+        "unchecked": true
     },
     {
         "filename": "Daha Neler Var.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Grup Hanedan",
         "timestamp": "2025-05-14"
     },
     {
         "filename": "Dayanamam.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Mustafa Büyükaslan",
-        "timestamp": null
+        "unchecked": true,
+        "hidden": true
     },
     {
         "filename": "De Kalbim.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Grup Hacegan",
-        "timestamp": null
+        "unchecked": true,
+        "hidden": true
     },
     {
         "filename": "Derman Arardım Derdime.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Diğer",
         "makam": "Hüseyni",
         "timestamp": "2025-10-14"
@@ -362,21 +341,19 @@
     {
         "filename": "Deli mi Neydi.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Diğer",
-        "timestamp": null
+        "unchecked": true
     },
     {
         "filename": "Derdime Dermanım.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Grup Hacegan",
-        "timestamp": null
+        "unchecked": true,
+        "hidden": true
     },
     {
         "filename": "Dolap Niçin İnlersin.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Hafız Kemal",
         "makam": ["Uşşak", "Neva"],
         "timestamp": "2025-06-26"
@@ -384,63 +361,59 @@
     {
         "filename": "Doyamadım.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Grup Hacegan",
-        "timestamp": null
+        "unchecked": true,
+        "hidden": true
     },
     {
         "filename": "Düğün.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Mustafa Büyükaslan",
-        "timestamp": null
+        "unchecked": true,
+        "hidden": true
     },
     {
         "filename": "Efendim.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Grup Hanedan",
-        "timestamp": null
+        "unchecked": true
     },
     {
         "filename": "Efendimin Gülü.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Grup Hacegan",
-        "timestamp": null
+        "unchecked": true,
+        "hidden": true
     },
     {
         "filename": "Ehlibeyt.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Grup Hanedan",
-        "timestamp": null
+        "unchecked": true
     },
     {
         "filename": "Elhamdülillah (Grup Hacegan).md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Grup Hacegan",
-        "timestamp": null
+        "unchecked": true,
+        "hidden": true
     },
     {
         "filename": "Elhamdülillah.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Grup Hanedan",
-        "timestamp": null
+        "unchecked": true,
+        "hidden": true
     },
     {
         "filename": "Erenlerin Halveti.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Grup Hanedan",
-        "timestamp": null
+        "unchecked": true
     },
     {
         "filename": "Erler Demine Destur Alalım.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Diğer",
         "makam": "Rast",
         "timestamp": "2025-06-27"
@@ -449,30 +422,28 @@
         "filename": "Ey Aşıkı Dildade.md",
         "language": "Türkçe",
         "singer": "Diğer",
-        "timeline": "Evvelî",
         "makam": "Rast",
         "timestamp": "2025-05-11"
     },
     {
         "filename": "Ey Bülbül-ü Şeyda.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Diğer",
         "timestamp": "2025-05-05"
     },
     {
         "filename": "Ey Gulamın.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Grup Hacegan",
-        "timestamp": null
+        "unchecked": true,
+        "hidden": true
     },
     {
         "filename": "Ey Nebi.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Grup Hacegan",
-        "timestamp": null
+        "unchecked": true,
+        "hidden": true
     },
     {
         "filename": "Ez Aşıqım Dilberek.md",
@@ -491,170 +462,157 @@
     {
         "filename": "Ez Ketime.md",
         "language": "Kürtçe",
-        "timeline": "Evvelî",
         "singer": "Rıdvan Böke",
-        "timestamp": null
+        "unchecked": true,
+        "hidden": true
     },
     {
         "filename": "Feda Ettim.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Grup Hacegan",
-        "timestamp": null
+        "unchecked": true,
+        "hidden": true
     },
     {
         "filename": "Ferman Sende.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Grup Hacegan",
-        "timestamp": null
+        "unchecked": true,
+        "hidden": true
     },
     {
         "filename": "Fırat Kenarında Menzil.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Grup Hanedan",
         "timestamp": "2025-05-14"
     },
     {
         "filename": "Garip Kul.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Grup Hacegan",
-        "timestamp": null
+        "unchecked": true,
+        "hidden": true
     },
     {
         "filename": "Gavsı Kasrevi.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Grup Hanedan",
-        "timestamp": null
-    },
-    {
-        "filename": "Gavsı Sani (Başında Beyaz Tacı).md",
-        "language": "Türkçe",
-        "timeline": "Evvelî",
-        "singer": "Mustafa Büyükaslan",
-        "timestamp": null
+        "unchecked": true
     },
     {
         "filename": "Gavsı Sani (Menzil'de Nurlu Markad).md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Mustafa Büyükaslan",
-        "timestamp": null
+        "unchecked": true,
+        "hidden": true
     },
     {
         "filename": "Gavsı Sani (Yolu Hakkın Yoludur).md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Mustafa Büyükaslan",
-        "timestamp": null
+        "unchecked": true,
+        "hidden": true
     },
     {
         "filename": "Gavsımın Şekerini.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Mustafa Büyükaslan",
-        "timestamp": null
+        "unchecked": true
     },
     {
         "filename": "Gavsların Sarayı.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Mustafa Büyükaslan",
-        "timestamp": null
+        "unchecked": true,
+        "hidden": true
     },
     {
         "filename": "Gel Gel.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Grup Hacegan",
-        "timestamp": null
+        "unchecked": true,
+        "hidden": true
     },
     {
         "filename": "Gel Hele.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Grup Hacegan",
-        "timestamp": null
+        "unchecked": true,
+        "hidden": true
     },
     {
         "filename": "Gel Kardeşim.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Grup Hacegan",
-        "timestamp": null
+        "unchecked": true,
+        "hidden": true
     },
     {
         "filename": "Gel Onunla Aşalım.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Grup Hacegan",
-        "timestamp": null
+        "unchecked": true,
+        "hidden": true
     },
     {
         "filename": "Gelebilsem.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Grup Hacegan",
-        "timestamp": null
+        "unchecked": true,
+        "hidden": true
     },
     {
         "filename": "Geliyor Sultanım.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Grup Hacegan",
         "timestamp": "2025-05-05"
     },
     {
         "filename": "Gitmişim.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Mustafa Büyükaslan",
-        "timestamp": null
+        "unchecked": true,
+        "hidden": true
     },
     {
         "filename": "Gönlüm İster.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Grup Hacegan",
-        "timestamp": null
+        "unchecked": true,
+        "hidden": true
     },
     {
         "filename": "Gönül Pazarı.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Grup Hacegan",
-        "timestamp": null
+        "unchecked": true,
+        "hidden": true
     },
     {
         "filename": "Gönül.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Grup Hacegan",
-        "timestamp": null
+        "unchecked": true,
+        "hidden": true
     },
     {
         "filename": "Gül Kokulu Medine.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Grup Hacegan",
-        "timestamp": null
+        "unchecked": true,
+        "hidden": true
     },
     {
         "filename": "Gül Menzil.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Murat Belet",
         "timestamp": "2025-05-05"
     },
     {
         "filename": "Gül Yağıyor.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Mustafa Büyükaslan",
-        "timestamp": null
+        "unchecked": true
     },
     {
         "filename": "Gül Yüzlü Şahım.md",
@@ -666,58 +624,58 @@
     {
         "filename": "Hasretim Var.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Grup Hacegan",
-        "timestamp": null
+        "unchecked": true,
+        "hidden": true
     },
     {
         "filename": "Hay Allah.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Mustafa Büyükaslan",
-        "timestamp": null
+        "unchecked": true,
+        "hidden": true
     },
     {
         "filename": "Hay Diye.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Grup Hacegan",
-        "timestamp": null
+        "unchecked": true,
+        "hidden": true
     },
     {
         "filename": "Hay Hay.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Grup Hacegan",
-        "timestamp": null
+        "unchecked": true,
+        "hidden": true
     },
     {
         "filename": "Her An Der Allah.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Mustafa Büyükaslan",
-        "timestamp": null
+        "unchecked": true,
+        "hidden": true
     },
     {
         "filename": "Her Şey Yolunda.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Grup Hacegan",
-        "timestamp": null
+        "unchecked": true,
+        "hidden": true
     },
     {
         "filename": "Hoşgeldin.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Mustafa Büyükaslan",
-        "timestamp": null
+        "unchecked": true,
+        "hidden": true
     },
     {
         "filename": "Hu Demek İster.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Grup Hacegan",
-        "timestamp": null
+        "unchecked": true,
+        "hidden": true
     },
     {
         "filename": "İki Gözümün Çiçeği.md",
@@ -729,266 +687,239 @@
     {
         "filename": "Kabem Seni.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Mustafa Büyükaslan",
-        "timestamp": null
-    },
-    {
-        "filename": "Kabir (Bir Niyazım Vardır).md",
-        "language": "Türkçe",
-        "timeline": "Evvelî",
-        "singer": "Mustafa Büyükaslan",
-        "timestamp": null
+        "unchecked": true,
+        "hidden": true
     },
     {
         "filename": "Kabir.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Mustafa Büyükaslan",
-        "timestamp": null
+        "unchecked": true,
+        "hidden": true
     },
     {
         "filename": "Kadir Gecesi.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Mustafa Büyükaslan",
-        "timestamp": null
+        "unchecked": true,
+        "hidden": true
     },
     {
         "filename": "Kalbinde Bana da Yer Ver.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Mustafa Büyükaslan",
-        "timestamp": null
+        "unchecked": true
     },
     {
         "filename": "Kaside-i Ebubekir.md",
         "language": "Arapça",
-        "timeline": "Evvelî",
         "singer": "Diğer",
         "timestamp": "2025-05-05"
     },
     {
         "filename": "Kevser Irmağı.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Rıdvan Böke",
         "timestamp": "2025-05-05"
     },
     {
         "filename": "Köyü Menzili Medine Kokuyor.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Mustafa Büyükaslan",
-        "timestamp": null
+        "unchecked": true
     },
     {
         "filename": "Kurban Olam Gavsıma.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Grup Hanedan",
         "timestamp": "2025-05-05"
     },
     {
         "filename": "Kurtar Beni.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Grup Hacegan",
-        "timestamp": null
+        "unchecked": true,
+        "hidden": true
     },
     {
         "filename": "Leblerinle Amadeyim.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Mehmet Emin Ay",
         "timestamp": "2025-05-11"
     },
     {
         "filename": "Mecnunum.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Mustafa Büyükaslan",
-        "timestamp": null
+        "unchecked": true,
+        "hidden": true
     },
     {
         "filename": "Meded Seydam.md",
         "language": "Kürtçe",
-        "timeline": "Evvelî",
         "singer": "Muhammed Ali",
         "timestamp": "2025-05-05"
     },
     {
         "filename": "Medine’de Bir Gece.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Mustafa Büyükaslan",
-        "timestamp": null
+        "unchecked": true,
+        "hidden": true
     },
     {
         "filename": "Menzil Yolları.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Mustafa Büyükaslan",
-        "timestamp": null
+        "unchecked": true
     },
     {
         "filename": "Menzil'e Güller Yağıyor.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Mustafa Büyükaslan",
-        "timestamp": null
+        "unchecked": true,
+        "hidden": true
     },
     {
         "filename": "Merhaba.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Grup Hanedan",
-        "timestamp": null
+        "unchecked": true
     },
     {
         "filename": "Mest Olduğum.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Mustafa Büyükaslan",
-        "timestamp": null
+        "unchecked": true,
+        "hidden": true
     },
     {
         "filename": "Mırın Heye.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Mustafa Büyükaslan",
-        "timestamp": null
+        "unchecked": true,
+        "hidden": true
     },
     {
         "filename": "Muhtaç Alem.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Grup Hanedan",
         "timestamp": "2025-05-14"
     },
     {
         "filename": "Mürşid Elimi Tutunca.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Mustafa Büyükaslan",
-        "timestamp": null
+        "unchecked": true
     },
     {
         "filename": "Nasip Eyle.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Grup Hanedan",
-        "timestamp": null
+        "unchecked": true,
+        "hidden": true
     },
     {
         "filename": "Ne Feryad Edersin Divane Bülbül.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Sedat Toktaş",
         "timestamp": "2025-05-05"
     },
     {
         "filename": "Ne Güzelsin Gavsi Sani.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Mustafa Sevim",
         "timestamp": "2025-05-05"
     },
     {
         "filename": "Nevbahar.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Bayram Büyükoruç",
         "timestamp": "2025-05-05"
     },
     {
         "filename": "Neylerse Güzel Eyler.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Mustafa Büyükaslan",
-        "timestamp": null
+        "unchecked": true,
+        "hidden": true
     },
     {
         "filename": "Niyet.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Mustafa Büyükaslan",
-        "timestamp": null
+        "unchecked": true,
+        "hidden": true
     },
     {
         "filename": "Noldu Bu Gönlüm.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Grup Hanedan",
-        "timestamp": null
+        "unchecked": true,
+        "hidden": true
     },
     {
         "filename": "Pervaneler Şem'a Yanar.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Diğer",
         "timestamp": "2025-05-05"
     },
     {
         "filename": "Plevne Marşı.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Mehter",
         "timestamp": "2025-25-06"
     },
     {
         "filename": "Rahmet Sofrası.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Grup Hanedan",
-        "timestamp": null
+        "unchecked": true
     },
     {
         "filename": "Rahmeta Bari.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Grup Hanedan",
-        "timestamp": null
+        "unchecked": true
     },
     {
         "filename": "Rasulün Aşkı.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Grup Hacegan",
-        "timestamp": null
+        "unchecked": true,
+        "hidden": true
     },
     {
         "filename": "Ravza.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Mustafa Büyükaslan",
-        "timestamp": null
+        "unchecked": true,
+        "hidden": true
     },
     {
         "filename": "Rıza Kapısı.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Grup Hanedan",
         "timestamp": "2025-05-14"
     },
     {
         "filename": "Sana Geliyorum.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Grup Hanedan",
-        "timestamp": null
+        "unchecked": true,
+        "hidden": true
     },
     {
         "filename": "Sancak Altında.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Mustafa Büyükaslan",
-        "timestamp": null
+        "unchecked": true,
+        "hidden": true
     },
     {
         "filename": "Severim Ben Seni.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Diğer",
         "makam": "Hüseyni",
         "timestamp": "2025-05-05"
@@ -996,9 +927,9 @@
     {
         "filename": "Seydam.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Mustafa Büyükaslan",
-        "timestamp": null
+        "unchecked": true,
+        "hidden": true
     },
     {
         "filename": "Sultan Saki.md",
@@ -1010,14 +941,13 @@
     {
         "filename": "Sultanım Gavsım.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Mustafa Büyükaslan",
-        "timestamp": null
+        "unchecked": true,
+        "hidden": true
     },
     {
         "filename": "Şeyhimin İlleri.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Diğer",
         "makam": ["Uşşak","Nihavend"],
         "timestamp": "2025-10-14"
@@ -1025,92 +955,76 @@
     {
         "filename": "Şefaat Ya Kerim.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Grup Hanedan",
         "timestamp": "2025-05-14"
     },
     {
         "filename": "Şükren Lillah.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Mustafa Büyükaslan",
-        "timestamp": null
+        "unchecked": true,
+        "hidden": true
     },
     {
         "filename": "Taleal Bedru Aleyna.md",
         "language": "Arapça",
-        "timeline": "Evvelî",
         "singer": "Diğer",
-        "timestamp": null
+        "unchecked": true
     },
     {
         "filename": "Taştı Rahmet Deryası.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Grup Hanedan",
-        "timestamp": null
+        "unchecked": true,
+        "hidden": true
     },
     {
         "filename": "Var.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Mustafa Büyükaslan",
-        "timestamp": null
+        "unchecked": true,
+        "hidden": true
     },
     {
         "filename": "Varis-i Nebi.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Grup Hanedan",
         "timestamp": "2025-05-14"
     },
     {
         "filename": "Ya Rabb Haberin Nereden Alayım.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "H. Sami Samioğlu",
         "timestamp": "2025-10-14"
     },
     {
-        "filename": "Ya Rabbi Ben Pişmanım.md",
-        "language": "Türkçe",
-        "timeline": "Evvelî",
-        "singer": "Mustafa Büyükaslan",
-        "timestamp": null
-    },
-    {
         "filename": "Yalvar Güzel Allaha.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Grup Hanedan",
-        "timestamp": null
+        "unchecked": true
     },
     {
         "filename": "Yan Yüreğim Yan.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Grup Hanedan",
-        "timestamp": null
+        "unchecked": true
     },
     {
         "filename": "Yanarım.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Bayram Büyükoruç",
         "timestamp": "2025-05-05"
     },
     {
         "filename": "Yar İle Şimdi.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Grup Hanedan",
         "timestamp": "2025-05-14"
     },
     {
         "filename": "Yaradanı Zikrederler.md",
         "language": "Türkçe",
-        "timeline": "Evvelî",
         "singer": "Grup Hanedan",
-        "timestamp": null
+        "unchecked": true
     }
 ]

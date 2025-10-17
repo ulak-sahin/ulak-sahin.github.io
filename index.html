@@ -64,6 +64,7 @@
       function createChips(category) {
         const container = document.getElementById(`chip-${category}`);
         categories[category].forEach(value => {
+          if (value == null) return;
           const chip = document.createElement('div');
           chip.className = 'chip';
           chip.textContent = value;
@@ -120,8 +121,10 @@
         oneWeekAgo.setDate(oneWeekAgo.getDate() - 7);
 
         const filtered = metadata.filter(song => {
-          const isUnchecked = song.timestamp === null;
           const isSearching = query.length > 0;
+
+          // Exclude songs with null timestamp unless the user is actively searching
+          if (song.hidden && !isSearching && !filters.singer) return false;
 
           return (!filters.language || song.language === filters.language) &&
                 (!filters.timestamp || song.timestamp === filters.timestamp) &&
@@ -131,10 +134,10 @@
         });
 
         filtered.forEach(song => {
-          const songTS = song.timestamp
+          const songTS = song.timestamp ?? null;
           const songDate = new Date(songTS);
           const isNew = songDate > oneWeekAgo;
-          const isUnchecked = songTS === null
+          const isUnchecked = song.unchecked;
           const tag = isUnchecked
             ? '<span class="unchecked-badge">DOĞRULANMAMIŞ</span>'
             : isNew
